@@ -1,1 +1,1 @@
-print('Hello, 404!')
+print('Hello, main.py!')
