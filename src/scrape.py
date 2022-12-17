@@ -1,8 +1,8 @@
 from playwright.sync_api import sync_playwright
 
 def main():
-  with sync_playwright as p:
-    browser = p.chromium.launch()
+  with sync_playwright() as synchronous_playwright:
+    browser = synchronous_playwright.chromium.launch()
     page = browser.new_page()
     url = 'https://fuchsia.dev'
     page.goto(url)
