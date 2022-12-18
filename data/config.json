@@ -1,3 +1,4 @@
 {
-  "entrypoint": "https://gabjoart.com"
+  "entrypoint": "https://gabjoart.com",
+  "interval": 10
 }
