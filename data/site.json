@@ -1,1 +1,10 @@
-{}
+{
+  "config": {
+    "maximum_run_time": 5
+  },
+  "todo": [
+    "https://fuchsia.dev"
+  ],
+  "results": {},
+  "metadata": {}
+}

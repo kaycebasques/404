@@ -1,74 +1,106 @@
 import lib
 from playwright.sync_api import sync_playwright
+from time import time
+from json import dumps
 
-# def scrape(context):
-#   load_state = 'networkidle'
-#   child_page_id = 'l40glam5kgzxk756jkagn345a'
-#   target_url = 'https://fuchsia.dev/fuchsia-src/development/sdk'
-#   target_page = context.new_page()
-#   target_page.goto(target_url)
-#   target_page.wait_for_load_state(load_state)
-#   target_page.evaluate('window.open("about:blank", "{}")'.format(child_page_id))
-#   child_page = None
-#   for page in context.pages:
-#     if page.url == 'about:blank':
-#       child_page = page
-#   child_page.wait_for_load_state(load_state)
-#   anchor_nodes = target_page.query_selector_all('a')
-#   for anchor_node in anchor_nodes:
-#     if not anchor_node.is_visible():
-#       continue
-#     href = anchor_node.get_attribute('href')
-#     target_page.evaluate('([anchor_node, child_page_id]) => anchor_node.target = child_page_id', [anchor_node, child_page_id])
-#     with child_page.expect_navigation() as unused:
-#       anchor_node.click()
-#     child_page.wait_for_load_state(load_state)
-#     response = child_page.reload()
-#     child_page.wait_for_load_state(load_state)
-#     print(response)
+def compute_url(protocol, origin, pathname, href):
+  if href.startswith('//'):
+    return '{}{}'.format(protocol, href)
+  elif href.startswith('/'):
+    return '{}{}'.format(origin, href)
+  elif href.startswith('http'):
+    return href
+  elif href.startswith('#'):
+    return '{}{}'.format(origin, pathname)
+  else:
+    return 'TODO({})'.format(href)
 
-def scrape(context):
+def get_url_metadata(page):
+  protocol = page.evaluate('() => window.location.protocol')
+  origin = page.evaluate('() => window.location.origin')
+  pathname = page.evaluate('() => window.location.pathname')
+  return {
+    'protocol': protocol,
+    'origin': origin,
+    'pathname': pathname
+  }
+
+def get_ids(page):
+  data = []
+  nodes_with_ids = page.query_selector_all('*[id]')
+  for node in nodes_with_ids:
+    node_id = node.get_attribute('id')
+    data.append(node_id)
+  return data
+
+def scrape(page, data):
   load_state = 'networkidle'
-  url = 'localhost:8080'
-  page = context.new_page()
-  page.goto(url)
-  # TODO: Use page.evaluate to get origin here
+  if len(data['todo']) == 0:
+    return data
+  url = data['todo'].pop()
+  response = page.goto(url)
   page.wait_for_load_state(load_state)
-  todo = []
+  url_metadata = get_url_metadata(page)
+  pathname = url_metadata['pathname']
+  origin = url_metadata['origin']
+  protocol = url_metadata['protocol']
+  computed_url = '{}{}'.format(origin, pathname)
+  if computed_url not in data['metadata']:
+    data['metadata'][computed_url] = {}
+  data['metadata'][computed_url]['ids'] = get_ids(page)
+  data['metadata'][computed_url]['ok'] = response.ok
+  data['metadata'][computed_url]['final_url'] = page.url
+  data['results'][pathname] = {}
   for anchor_node in page.query_selector_all('a'):
     href = anchor_node.get_attribute('href')
-    todo.append(href)
-  # TODO: Before entering the while loop check hrefs beginning with #
-  while len(todo) > 0:
-    page.goto(url)
-    page.wait_for_load_state(load_state)
-    next_href = todo.pop()
-    print(next_href)
-    next_anchor_node = page.query_selector('a[href="{}"]'.format(next_href))
-    if next_anchor_node is None:
-      print('node not found')
+    if href is None:
       continue
-    if not next_anchor_node.is_visible():
-      print('node not visible')
-      # TODO: If the node starts with / save it for a manual visit later?
+    if href == pathname:
       continue
-    next_anchor_node.click()
-    page.wait_for_load_state(load_state)
-    response = page.reload()
-    page.wait_for_load_state(load_state)
-    # TODO: Use page.evaluate to get the current origin and compare with original?
-    if response is None:
-      print('response is none')
+    computed_url = compute_url(protocol, origin, pathname, href)
+    # if computed_url.startswith(origin):
+    #   data['todo'].append(computed_url)
+    data['results'][pathname][href] = {
+      'computed_url': computed_url,
+      'ok': None
+    }
+    if computed_url not in data['metadata']:
+      data['metadata'][computed_url] = {
+        'ok': None
+      }
+  for href in data['results'][pathname]:
+    if href == '#':
+      data['results'][pathname][href]['ok'] = True
       continue
-    if not response.ok:
-      print('404!')
-  
+    computed_url = data['results'][pathname][href]['computed_url']
+    ok = data['metadata'][computed_url]['ok']
+    if ok is True or ok is False:
+      continue
+    response = page.goto(computed_url)
+    page.wait_for_load_state(load_state)
+    data['metadata'][computed_url]['ok'] = response.ok
+    data['results'][pathname][href]['ok'] = response.ok
+    data['metadata'][computed_url]['final_url'] = page.url
+    data['metadata'][computed_url]['ids'] = get_ids(page)
+    if href.startswith('#'):
+      i = href.replace('#', '')
+      data['results'][pathname][href]['ok'] = (i in data['metadata'][computed_url]['ids'])
+  return data
+
 def main():
+  start_time = time()
+  data = lib.read_json('data/site.json')
+  config = data['config']
   with sync_playwright() as synchronous_playwright:
     browser = synchronous_playwright.chromium.launch(headless=False)
     context = browser.new_context()
     context.set_default_timeout(10000)
-    scrape(context)
+    page = context.new_page()
+    current_time = time()
+    while (current_time - start_time) < config['maximum_run_time']:
+      data = scrape(page, data)
+      current_time = time()
+  print(dumps(data, indent=2))
 
 if __name__ == '__main__':
   main()
