@@ -13,7 +13,7 @@ def compute_url(protocol, origin, pathname, href):
   elif href.startswith('#'):
     return '{}{}'.format(origin, pathname)
   else:
-    return 'TODO({})'.format(href)
+    return 'TODO: {}'.format(href)
 
 def get_url_tokens(page):
   protocol = page.evaluate('() => window.location.protocol')
@@ -46,9 +46,13 @@ def scrape(page, data):
   load_state = 'networkidle'
   if len(data['todo']) == 0:
     return data
-  url = data['todo'].pop()
-  response = page.goto(url)
-  page.wait_for_load_state(load_state)
+  url = data['todo'].pop(0)
+  try:
+    response = page.goto(url, timeout=10000)
+    page.wait_for_load_state(load_state)
+  except:
+    data['todo'].append(url)
+    return data
   url_tokens = get_url_tokens(page)
   pathname = url_tokens['pathname']
   origin = url_tokens['origin']
@@ -81,8 +85,13 @@ def scrape(page, data):
     if computed_url in data['metadata']:
       data['results'][pathname][href]['ok'] = data['metadata'][computed_url]['ok']
       continue
-    response = page.goto(computed_url)
-    page.wait_for_load_state(load_state)
+    try:
+      response = page.goto(computed_url, timeout=10000)
+      page.wait_for_load_state(load_state)
+    except:
+      data['results'][pathname][href]['ok'] = False
+      data['results'][pathname][href]['ok'] = False
+      return data
     data = update_metadata(page, response, computed_url, data)
     if href == '#':
       data['results'][pathname][href]['ok'] = data['metadata'][computed_url]['ok']
@@ -106,7 +115,7 @@ def main():
     while (current_time - start_time) < config['maximum_run_time']:
       data = scrape(page, data)
       current_time = time()
-  print(dumps(data, indent=2))
+  lib.write_json('data/site.json', data)
 
 if __name__ == '__main__':
   main()
