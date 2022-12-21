@@ -21,7 +21,7 @@ jobs:
           if [[ `git diff --exit-code data/site.json` ]]; then
             git config user.name "GitHub Actions"
             git config user.email "actions@github.com"
-            git add data/econoday.json
+            git add data/site.json
             git commit -m "Automated update of site data"
             git push
           fi
