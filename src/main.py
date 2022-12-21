@@ -107,7 +107,8 @@ def main():
   data = lib.read_json('data/site.json')
   config = data['config']
   with sync_playwright() as synchronous_playwright:
-    browser = synchronous_playwright.chromium.launch(headless=False)
+    # browser = synchronous_playwright.chromium.launch(headless=False)
+    browser = synchronous_playwright.chromium.launch()
     context = browser.new_context()
     context.set_default_timeout(10000)
     page = context.new_page()
