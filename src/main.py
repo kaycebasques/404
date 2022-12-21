@@ -15,7 +15,7 @@ def compute_url(protocol, origin, pathname, href):
   else:
     return 'TODO({})'.format(href)
 
-def get_url_metadata(page):
+def get_url_tokens(page):
   protocol = page.evaluate('() => window.location.protocol')
   origin = page.evaluate('() => window.location.origin')
   pathname = page.evaluate('() => window.location.pathname')
@@ -33,6 +33,15 @@ def get_ids(page):
     data.append(node_id)
   return data
 
+def update_metadata(page, response, computed_url, data):
+  if computed_url not in data['metadata']:
+    data['metadata'][computed_url] = {}
+  data['metadata'][computed_url]['ok'] = response.ok
+  data['metadata'][computed_url]['final_url'] = page.url
+  data['metadata'][computed_url]['ids'] = get_ids(page)
+  data['metadata'][computed_url]['last_visit'] = int(time())
+  return data
+
 def scrape(page, data):
   load_state = 'networkidle'
   if len(data['todo']) == 0:
@@ -40,16 +49,12 @@ def scrape(page, data):
   url = data['todo'].pop()
   response = page.goto(url)
   page.wait_for_load_state(load_state)
-  url_metadata = get_url_metadata(page)
-  pathname = url_metadata['pathname']
-  origin = url_metadata['origin']
-  protocol = url_metadata['protocol']
+  url_tokens = get_url_tokens(page)
+  pathname = url_tokens['pathname']
+  origin = url_tokens['origin']
+  protocol = url_tokens['protocol']
   computed_url = '{}{}'.format(origin, pathname)
-  if computed_url not in data['metadata']:
-    data['metadata'][computed_url] = {}
-  data['metadata'][computed_url]['ids'] = get_ids(page)
-  data['metadata'][computed_url]['ok'] = response.ok
-  data['metadata'][computed_url]['final_url'] = page.url
+  data = update_metadata(page, response, computed_url, data)
   data['results'][pathname] = {}
   for anchor_node in page.query_selector_all('a'):
     href = anchor_node.get_attribute('href')
@@ -58,33 +63,34 @@ def scrape(page, data):
     if href == pathname:
       continue
     computed_url = compute_url(protocol, origin, pathname, href)
-    # if computed_url.startswith(origin):
-    #   data['todo'].append(computed_url)
+    if computed_url.startswith(origin):
+      data['todo'].append(computed_url)
     data['results'][pathname][href] = {
       'computed_url': computed_url,
       'ok': None
     }
-    if computed_url not in data['metadata']:
-      data['metadata'][computed_url] = {
-        'ok': None
-      }
   for href in data['results'][pathname]:
-    if href == '#':
-      data['results'][pathname][href]['ok'] = True
-      continue
     computed_url = data['results'][pathname][href]['computed_url']
-    ok = data['metadata'][computed_url]['ok']
-    if ok is True or ok is False:
+    if computed_url in data['metadata'] and href == '#':
+      data['results'][pathname][href]['ok'] = data['metadata'][computed_url]['ok']
+      continue
+    if computed_url in data['metadata'] and href.startswith('#'):
+      i = href.replace('#', '')
+      data['results'][pathname][href]['ok'] = i in data['metadata'][computed_url]['ids']
+      continue
+    if computed_url in data['metadata']:
+      data['results'][pathname][href]['ok'] = data['metadata'][computed_url]['ok']
       continue
     response = page.goto(computed_url)
     page.wait_for_load_state(load_state)
-    data['metadata'][computed_url]['ok'] = response.ok
-    data['results'][pathname][href]['ok'] = response.ok
-    data['metadata'][computed_url]['final_url'] = page.url
-    data['metadata'][computed_url]['ids'] = get_ids(page)
-    if href.startswith('#'):
+    data = update_metadata(page, response, computed_url, data)
+    if href == '#':
+      data['results'][pathname][href]['ok'] = data['metadata'][computed_url]['ok']
+    elif href.startswith('#'):
       i = href.replace('#', '')
-      data['results'][pathname][href]['ok'] = (i in data['metadata'][computed_url]['ids'])
+      data['results'][pathname][href]['ok'] = i in data['metadata'][computed_url]['ids']
+    else:
+      data['results'][pathname][href]['ok'] = data['metadata'][computed_url]['ok']
   return data
 
 def main():

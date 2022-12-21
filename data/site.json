@@ -1,6 +1,6 @@
 {
   "config": {
-    "maximum_run_time": 5
+    "maximum_run_time": 30
   },
   "todo": [
     "https://fuchsia.dev"
