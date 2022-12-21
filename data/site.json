@@ -3,8 +3,379 @@
     "maximum_run_time": 5
   },
   "todo": [
-    "https://fuchsia.dev"
+    "https://fuchsia.dev/fuchsia-src/get-started/learn-fuchsia",
+    "https://fuchsia.dev/fuchsia-src/development/sdk",
+    "https://fuchsia.dev/reference",
+    "https://fuchsia.dev/whats-new/release-notes",
+    "https://fuchsia.dev/fuchsia-src/development",
+    "https://fuchsia.dev/",
+    "https://fuchsia.dev/_d/signin?continue=https%3A%2F%2Ffuchsia.dev%2F&prompt=select_account",
+    "https://fuchsia.dev/fuchsia-src/get-started/learn-fuchsia",
+    "https://fuchsia.dev/fuchsia-src/development/sdk",
+    "https://fuchsia.dev/reference",
+    "https://fuchsia.dev/whats-new/release-notes",
+    "https://fuchsia.dev/fuchsia-src/development",
+    "https://fuchsia.dev/",
+    "https://fuchsia.dev/fuchsia-src/get-started/learn-fuchsia",
+    "https://fuchsia.dev/fuchsia-src/get-started/learn-fuchsia",
+    "https://fuchsia.dev/fuchsia-src/development/sdk",
+    "https://fuchsia.dev/fuchsia-src/development"
   ],
-  "results": {},
-  "metadata": {}
+  "results": {
+    "/": {
+      "https://fuchsia.dev/fuchsia-src/get-started/learn-fuchsia": {
+        "computed_url": "https://fuchsia.dev/fuchsia-src/get-started/learn-fuchsia",
+        "ok": true
+      },
+      "https://fuchsia.dev/fuchsia-src/development/sdk": {
+        "computed_url": "https://fuchsia.dev/fuchsia-src/development/sdk",
+        "ok": true
+      },
+      "https://fuchsia.dev/reference": {
+        "computed_url": "https://fuchsia.dev/reference",
+        "ok": true
+      },
+      "https://fuchsia.dev/whats-new/release-notes": {
+        "computed_url": "https://fuchsia.dev/whats-new/release-notes",
+        "ok": true
+      },
+      "https://fuchsia.dev/fuchsia-src/development": {
+        "computed_url": "https://fuchsia.dev/fuchsia-src/development",
+        "ok": true
+      },
+      "#": {
+        "computed_url": "https://fuchsia.dev/",
+        "ok": true
+      },
+      "https://fuchsia.dev/_d/signin?continue=https%3A%2F%2Ffuchsia.dev%2F&prompt=select_account": {
+        "computed_url": "https://fuchsia.dev/_d/signin?continue=https%3A%2F%2Ffuchsia.dev%2F&prompt=select_account",
+        "ok": true
+      },
+      "/fuchsia-src/get-started/learn-fuchsia": {
+        "computed_url": "https://fuchsia.dev/fuchsia-src/get-started/learn-fuchsia",
+        "ok": true
+      },
+      "/fuchsia-src/development/sdk": {
+        "computed_url": "https://fuchsia.dev/fuchsia-src/development/sdk",
+        "ok": true
+      },
+      "/reference": {
+        "computed_url": "https://fuchsia.dev/reference",
+        "ok": true
+      },
+      "/whats-new/release-notes": {
+        "computed_url": "https://fuchsia.dev/whats-new/release-notes",
+        "ok": true
+      },
+      "/fuchsia-src/development": {
+        "computed_url": "https://fuchsia.dev/fuchsia-src/development",
+        "ok": true
+      },
+      "https://fuchsia.dev/": {
+        "computed_url": "https://fuchsia.dev/",
+        "ok": true
+      },
+      "//policies.google.com/terms": {
+        "computed_url": "https://policies.google.com/terms",
+        "ok": true
+      },
+      "//policies.google.com/privacy": {
+        "computed_url": "https://policies.google.com/privacy",
+        "ok": true
+      }
+    }
+  },
+  "metadata": {
+    "https://fuchsia.dev/": {
+      "ok": true,
+      "final_url": "https://fuchsia.dev/",
+      "ids": [
+        "app-progress",
+        "devsite-hamburger-menu",
+        "devsite-search-popout-container-id-1",
+        "devsite-user",
+        "devsite-close-nav",
+        "gc-wrapper",
+        "welcome-to-fuchsia",
+        "apiproxyabda1299009f93e915d7edaf630b4e552b1425850.3391131226"
+      ],
+      "last_visit": 1671662711
+    },
+    "https://fuchsia.dev/fuchsia-src/get-started/learn-fuchsia": {
+      "ok": true,
+      "final_url": "https://fuchsia.dev/fuchsia-src/get-started/learn-fuchsia",
+      "ids": [
+        "app-progress",
+        "devsite-hamburger-menu",
+        "devsite-search-popout-container-id-1",
+        "devsite-user",
+        "devsite-close-nav",
+        "gc-wrapper",
+        "devsite-thumb-label-header",
+        "sdk_or_source_tree",
+        "sdk_-_build_software_for_fuchsia",
+        "source_tree_-_contribute_to_fuchsia",
+        "devsite-thumb-label-footer",
+        "apiproxyabda1299009f93e915d7edaf630b4e552b1425850.3177451473"
+      ],
+      "last_visit": 1671662713
+    },
+    "https://fuchsia.dev/fuchsia-src/development/sdk": {
+      "ok": true,
+      "final_url": "https://fuchsia.dev/fuchsia-src/development/sdk",
+      "ids": [
+        "app-progress",
+        "devsite-hamburger-menu",
+        "devsite-search-popout-container-id-1",
+        "devsite-user",
+        "devsite-close-nav",
+        "gc-wrapper",
+        "devsite-thumb-label-header",
+        "developing_software_with_the_fuchsia_sdk",
+        "build_system_support",
+        "get_started_with_the_fuchsia_sdk",
+        "get_started_with_driver_development",
+        "devsite-thumb-label-footer",
+        "apiproxyabda1299009f93e915d7edaf630b4e552b1425850.994388502"
+      ],
+      "last_visit": 1671662715
+    },
+    "https://fuchsia.dev/reference": {
+      "ok": true,
+      "final_url": "https://fuchsia.dev/reference",
+      "ids": [
+        "app-progress",
+        "devsite-hamburger-menu",
+        "devsite-search-popout-container-id-1",
+        "devsite-user",
+        "devsite-close-nav",
+        "gc-wrapper",
+        "devsite-thumb-label-header",
+        "devsite-thumb-label-footer",
+        "apiproxyabda1299009f93e915d7edaf630b4e552b1425850.403435606"
+      ],
+      "last_visit": 1671662717
+    },
+    "https://fuchsia.dev/whats-new/release-notes": {
+      "ok": true,
+      "final_url": "https://fuchsia.dev/whats-new/release-notes",
+      "ids": [
+        "app-progress",
+        "devsite-hamburger-menu",
+        "devsite-search-popout-container-id-1",
+        "devsite-user",
+        "devsite-close-nav",
+        "gc-wrapper",
+        "devsite-thumb-label-header",
+        "devsite-thumb-label-footer",
+        "apiproxyabda1299009f93e915d7edaf630b4e552b1425850.263428995"
+      ],
+      "last_visit": 1671662719
+    },
+    "https://fuchsia.dev/fuchsia-src/development": {
+      "ok": true,
+      "final_url": "https://fuchsia.dev/fuchsia-src/development",
+      "ids": [
+        "app-progress",
+        "devsite-hamburger-menu",
+        "devsite-search-popout-container-id-1",
+        "devsite-user",
+        "devsite-close-nav",
+        "gc-wrapper",
+        "devsite-thumb-label-header",
+        "basic_workflows",
+        "languages",
+        "api",
+        "testing",
+        "tracing",
+        "internationalization",
+        "devsite-thumb-label-footer",
+        "apiproxyabda1299009f93e915d7edaf630b4e552b1425850.3107617009"
+      ],
+      "last_visit": 1671662720
+    },
+    "https://fuchsia.dev/_d/signin?continue=https%3A%2F%2Ffuchsia.dev%2F&prompt=select_account": {
+      "ok": true,
+      "final_url": "https://accounts.google.com/ServiceLogin?continue=https%3A%2F%2Faccounts.google.com%2Fsignin%2Foauth%2Flegacy%2Fconsent%3Fauthuser%3Dunknown%26part%3DAJi8hANblKVPQ9-8uw4yrfSFtq8nllb_BzuuT-kamYjA43AXJVYEiLYHLElUldYisBvAxxh6gX2Byw3X_n0hstgl29TSPFZNfRTwSXpCeS6sJiqaR6JWoo0D9J1WK3hEkEyJpok5hUq1rHUPbbkOT-QIJuRuPUPf6HvRDjZuNJ0Qe_Mv2iyVnSt-R2uk4Kjfi2ywhA6gUF8KT8GpN71_E1djeqQjMlsZidLgekcwx_pf-nBJh78bFRbhahiMZH_hhxbDJio-7GhxrmqZcyXNplDgtkRTR5QMFeqk4Zcalrguz3RV0WKs0GRBcu2Su7bDKwfqwPAt0sCEE6P_-e8AZl3BErkdMQcxOEQN9OPXD1yaB1SUhrCbY_nqxr1PyMhAzglgkUsCGzdD_W1ie3cecJnZLvjkVWGlyKc8XJdJIgkFM5KcaUR6lul-nHROTJixdrNL-OIy-x6KcQek1PHVLyZE6dnsFvSl0g%26as%3DS1292276464%253A1671662720858989%26client_id%3D157101835696-ooapojlodmuabs2do2vuhhnf90bccmoi.apps.googleusercontent.com%23&sacu=1&oauth=1&rip=1",
+      "ids": [
+        "gaia_loginform",
+        "profile-information",
+        "session-state",
+        "_utf8",
+        "bgresponse",
+        "gaia_firstform",
+        "identifier-shown",
+        "Email",
+        "Passwd-hidden",
+        "errormsg_0_Email",
+        "next",
+        "link-signin-different",
+        "link-signup",
+        "footer-list",
+        "lang-vis-control",
+        "lang-chooser-wrap",
+        "lang-chooser"
+      ],
+      "last_visit": 1671662721
+    },
+    "https://policies.google.com/terms": {
+      "ok": true,
+      "final_url": "https://policies.google.com/terms",
+      "ids": [
+        "base-js",
+        "yDmH0d",
+        "gb",
+        "sdgBod",
+        "gbwa",
+        "i2",
+        "toc-intro",
+        "whats-covered",
+        "service-provider",
+        "age-requirements",
+        "toc-relationship",
+        "toc-what-you-expect",
+        "useful-services",
+        "improve-services",
+        "toc-what-we-expect",
+        "follow-terms",
+        "respect",
+        "toc-permission",
+        "license",
+        "license-covered",
+        "license-not-covered",
+        "scope",
+        "rights",
+        "toc-purpose",
+        "duration",
+        "toc-using",
+        "toc-account",
+        "as-organization",
+        "toc-service-related-comm",
+        "toc-content",
+        "your-content-in-services",
+        "google-content",
+        "other-content",
+        "toc-software",
+        "toc-problems",
+        "toc-warranty-disclaimer",
+        "toc-liability",
+        "for-all",
+        "for-business-and-orgs",
+        "taking-action",
+        "toc-removing",
+        "suspending-access",
+        "disputes",
+        "toc-about",
+        "definitions",
+        "footnote-affiliates",
+        "footnote-business-user",
+        "footnote-consumer",
+        "footnote-copyright",
+        "footnote-country-version",
+        "footnote-disclaimer",
+        "footnote-indemnify",
+        "footnote-intellectual-property-rights",
+        "footnote-liability",
+        "footnote-organization",
+        "footnote-services",
+        "footnote-trademark",
+        "footnote-warranty",
+        "footnote-your-content",
+        "i3",
+        "i5",
+        "i4",
+        "i1",
+        "_ij",
+        "wiz_jd",
+        "WIZ-footer"
+      ],
+      "last_visit": 1671662723
+    },
+    "https://policies.google.com/privacy": {
+      "ok": true,
+      "final_url": "https://policies.google.com/privacy",
+      "ids": [
+        "base-js",
+        "yDmH0d",
+        "gb",
+        "sdgBod",
+        "gbwa",
+        "i2",
+        "intro",
+        "infocollect",
+        "whycollect",
+        "infochoices",
+        "infosharing",
+        "infosecurity",
+        "infodelete",
+        "inforetaining",
+        "enforcement",
+        "california",
+        "about",
+        "policychanges",
+        "products",
+        "key-terms",
+        "footnote-affiliates",
+        "footnote-algorithm",
+        "footnote-application-data-cache",
+        "footnote-browser-storage",
+        "footnote-cookies",
+        "footnote-device",
+        "footnote-account",
+        "footnote-ip",
+        "footnote-info",
+        "footnote-personal-info",
+        "footnote-pixel",
+        "footnote-referrer-url",
+        "footnote-sensitive-info",
+        "footnote-server-logs",
+        "footnote-unique-id",
+        "footnote-useful-ads",
+        "footnote-ad-services",
+        "footnote-android-device",
+        "footnote-combine-info",
+        "footnote-customized-search",
+        "footnote-deliver-services",
+        "footnote-detect-abuse",
+        "footnote-devices",
+        "footnote-improve",
+        "footnote-ensure-working",
+        "footnote-near-device",
+        "footnote-legal",
+        "footnote-make-improvements",
+        "footnote-link-info",
+        "footnote-our-users",
+        "footnote-partner",
+        "footnote-payment-info",
+        "footnote-personalized-ads",
+        "footnote-phone-number",
+        "footnote-against-abuse",
+        "footnote-sources",
+        "footnote-rely-on-cookies",
+        "footnote-safety-reliability",
+        "footnote-sensitive-categories",
+        "footnote-sensor-data",
+        "footnote-servers",
+        "footnote-calls-messages",
+        "footnote-trends",
+        "footnote-delete-specific",
+        "footnote-specific-partners",
+        "footnote-chrome-sync",
+        "footnote-people-online",
+        "footnote-the-public",
+        "footnote-third-parties",
+        "footnote-content-views",
+        "footnote-voice-audio-information",
+        "footnote-other-sites",
+        "i3",
+        "i5",
+        "i4",
+        "i1",
+        "_ij",
+        "wiz_jd",
+        "WIZ-footer"
+      ],
+      "last_visit": 1671662728
+    }
+  }
 }
