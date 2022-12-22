@@ -4,8 +4,6 @@
   },
   "todo": [
     "https://fuchsia.dev/fuchsia-src/get-started/learn-fuchsia",
-    "https://fuchsia.dev/_d/signin?continue=https%3A%2F%2Ffuchsia.dev%2Ffuchsia-src%2Fget-started%2Flearn-fuchsia&prompt=select_account",
-    "https://fuchsia.dev/fuchsia-src/get-started/learn-fuchsia",
     "https://fuchsia.dev/fuchsia-src/get-started/learn-fuchsia",
     "https://fuchsia.dev/fuchsia-src/concepts",
     "https://fuchsia.dev/fuchsia-src/glossary",
@@ -2957,7 +2955,83 @@
     "https://fuchsia.dev/docs/concepts/kernel/tracing-system",
     "https://fuchsia.dev/docs/development/tracing/README",
     "https://fuchsia.dev/docs/development/ui-input/tracing",
-    "https://fuchsia.dev/fuchsia-src/development/internationalization/README"
+    "https://fuchsia.dev/fuchsia-src/development/internationalization/README",
+    "https://fuchsia.dev/",
+    "https://fuchsia.dev/fuchsia-src/get-started/learn-fuchsia",
+    "https://fuchsia.dev/fuchsia-src/development/sdk",
+    "https://fuchsia.dev/reference",
+    "https://fuchsia.dev/whats-new/release-notes",
+    "https://fuchsia.dev/fuchsia-src/development",
+    "https://fuchsia.dev/fuchsia-src/get-started/learn-fuchsia",
+    "https://fuchsia.dev/_d/signin?continue=https%3A%2F%2Ffuchsia.dev%2Ffuchsia-src%2Fget-started%2Flearn-fuchsia&prompt=select_account",
+    "https://fuchsia.dev/fuchsia-src/get-started/learn-fuchsia",
+    "https://fuchsia.dev/fuchsia-src/get-started/learn-fuchsia",
+    "https://fuchsia.dev/fuchsia-src/concepts",
+    "https://fuchsia.dev/fuchsia-src/glossary",
+    "https://fuchsia.dev/fuchsia-src/get-started/learn-fuchsia",
+    "https://fuchsia.dev/",
+    "https://fuchsia.dev/fuchsia-src/concepts",
+    "https://fuchsia.dev/fuchsia-src/glossary",
+    "https://fuchsia.dev/fuchsia-src/development/sdk",
+    "https://fuchsia.dev/reference",
+    "https://fuchsia.dev/whats-new/release-notes",
+    "https://fuchsia.dev/fuchsia-src/development",
+    "https://fuchsia.dev/fuchsia-src/get-started/sdk/learn",
+    "https://fuchsia.dev/fuchsia-src/get-started/sdk/learn/intro",
+    "https://fuchsia.dev/fuchsia-src/get-started/sdk/learn/intro/architecture",
+    "https://fuchsia.dev/fuchsia-src/get-started/sdk/learn/intro/zircon",
+    "https://fuchsia.dev/fuchsia-src/get-started/sdk/learn/intro/sandboxing",
+    "https://fuchsia.dev/fuchsia-src/get-started/sdk/learn/intro/components",
+    "https://fuchsia.dev/fuchsia-src/get-started/sdk/learn/intro/packages",
+    "https://fuchsia.dev/fuchsia-src/get-started/sdk/learn/components",
+    "https://fuchsia.dev/fuchsia-src/get-started/sdk/learn/components/declaring-components",
+    "https://fuchsia.dev/fuchsia-src/get-started/sdk/learn/components/organizing-components",
+    "https://fuchsia.dev/fuchsia-src/get-started/sdk/learn/components/component-tests",
+    "https://fuchsia.dev/fuchsia-src/get-started/sdk/learn/components/debugging-components",
+    "https://fuchsia.dev/fuchsia-src/get-started/sdk/learn/components/build-product",
+    "https://fuchsia.dev/fuchsia-src/get-started/sdk/learn/fidl",
+    "https://fuchsia.dev/fuchsia-src/get-started/sdk/learn/fidl/fidl",
+    "https://fuchsia.dev/fuchsia-src/get-started/sdk/learn/fidl/connecting-components",
+    "https://fuchsia.dev/fuchsia-src/get-started/sdk/learn/fidl/integration-testing",
+    "https://fuchsia.dev/fuchsia-src/get-started/sdk/learn/fidl/diagnostics-monitoring",
+    "https://fuchsia.dev/fuchsia-src/get-started/learn",
+    "https://fuchsia.dev/fuchsia-src/get-started/learn/intro",
+    "https://fuchsia.dev/fuchsia-src/get-started/learn/intro/architecture",
+    "https://fuchsia.dev/fuchsia-src/get-started/learn/intro/zircon",
+    "https://fuchsia.dev/fuchsia-src/get-started/learn/intro/sandboxing",
+    "https://fuchsia.dev/fuchsia-src/get-started/learn/intro/components",
+    "https://fuchsia.dev/fuchsia-src/get-started/learn/intro/packages",
+    "https://fuchsia.dev/fuchsia-src/get-started/learn/build",
+    "https://fuchsia.dev/fuchsia-src/get-started/learn/build/source-tree",
+    "https://fuchsia.dev/fuchsia-src/get-started/learn/build/build-system",
+    "https://fuchsia.dev/fuchsia-src/get-started/learn/build/product-packages",
+    "https://fuchsia.dev/fuchsia-src/get-started/learn/build/working-with-devices",
+    "https://fuchsia.dev/fuchsia-src/get-started/learn/components",
+    "https://fuchsia.dev/fuchsia-src/get-started/learn/components/declaring-components",
+    "https://fuchsia.dev/fuchsia-src/get-started/learn/components/organizing-components",
+    "https://fuchsia.dev/fuchsia-src/get-started/learn/components/component-tests",
+    "https://fuchsia.dev/fuchsia-src/get-started/learn/components/debugging-components",
+    "https://fuchsia.dev/fuchsia-src/get-started/learn/components/build-product",
+    "https://fuchsia.dev/fuchsia-src/get-started/learn/fidl",
+    "https://fuchsia.dev/fuchsia-src/get-started/learn/fidl/fidl",
+    "https://fuchsia.dev/fuchsia-src/get-started/learn/fidl/connecting-components",
+    "https://fuchsia.dev/fuchsia-src/get-started/learn/fidl/integration-testing",
+    "https://fuchsia.dev/fuchsia-src/get-started/learn/fidl/diagnostics-monitoring",
+    "https://fuchsia.dev/fuchsia-src/get-started/learn-fuchsia",
+    "https://fuchsia.dev/fuchsia-src/get-started/learn-fuchsia",
+    "https://fuchsia.dev/fuchsia-src/get-started/learn-fuchsia",
+    "https://fuchsia.dev/",
+    "https://fuchsia.dev/fuchsia-src/get-started/learn-fuchsia",
+    "https://fuchsia.dev/fuchsia-src/get-started/learn-fuchsia",
+    "https://fuchsia.dev/fuchsia-src/get-started/learn-fuchsia",
+    "https://fuchsia.dev/fuchsia-src/get-started/learn-fuchsia",
+    "https://fuchsia.dev/docs/get-started/sdk/learn",
+    "https://fuchsia.dev/docs/get-started/learn",
+    "https://accounts.google.com/signin/usernamerecovery?continue=https%3A%2F%2Faccounts.google.com%2Fsignin%2Foauth%2Flegacy%2Fconsent%3Fauthuser%3Dunknown%26part%3DAJi8hAOioOaRUQt2PO2Nx0--c-d2_PPZew13qkddADbt21vBd9MQmkNMUWu3a8nuidlkI8QerUmpWyN3z23rWLw6BagHZQGAf-lhbHk4OGyEu9vq8YjMMJomVaxFJwxzMDTMWoOK1xH_pIsHtst-T6sLUg_f6333O1fqW1BW-xq3uLh8nJvg6uzAnZt1y8HBE8pcoLbcl2zZe5lmaImnVWZqgtGlg1tvtnoZfTaOx4Jb8iVe1dmqoL67pWf_Bp7DtUs3HYPV-AVkZLCNMi7I5MHLT3Cxd1hgB5YTPE_t334ZTpu1XmIwQ8bzC3-j21vVHVAJfU8WinIrj-17Hx5cyqweWeynVvgbzIR1PUDNg_JCJhoDkMgIusi1ZuPjUmhaqjWKtwG6irGQ8wREUvpXW0FDiWFuFl2CN34ZWzyZ_zVqtN7TaEmddeIwImoJfsMJgNx9mmS8Jc72bSiLvjrujG2QFZfLDHMSGQ%26as%3DS2030114143%253A1671679444963442%26client_id%3D157101835696-ooapojlodmuabs2do2vuhhnf90bccmoi.apps.googleusercontent.com%23&oauth=1&hl=en",
+    "https://accounts.google.com/AccountChooser?continue=https%3A%2F%2Faccounts.google.com%2Fsignin%2Foauth%2Flegacy%2Fconsent%3Fauthuser%3Dunknown%26part%3DAJi8hAOioOaRUQt2PO2Nx0--c-d2_PPZew13qkddADbt21vBd9MQmkNMUWu3a8nuidlkI8QerUmpWyN3z23rWLw6BagHZQGAf-lhbHk4OGyEu9vq8YjMMJomVaxFJwxzMDTMWoOK1xH_pIsHtst-T6sLUg_f6333O1fqW1BW-xq3uLh8nJvg6uzAnZt1y8HBE8pcoLbcl2zZe5lmaImnVWZqgtGlg1tvtnoZfTaOx4Jb8iVe1dmqoL67pWf_Bp7DtUs3HYPV-AVkZLCNMi7I5MHLT3Cxd1hgB5YTPE_t334ZTpu1XmIwQ8bzC3-j21vVHVAJfU8WinIrj-17Hx5cyqweWeynVvgbzIR1PUDNg_JCJhoDkMgIusi1ZuPjUmhaqjWKtwG6irGQ8wREUvpXW0FDiWFuFl2CN34ZWzyZ_zVqtN7TaEmddeIwImoJfsMJgNx9mmS8Jc72bSiLvjrujG2QFZfLDHMSGQ%26as%3DS2030114143%253A1671679444963442%26client_id%3D157101835696-ooapojlodmuabs2do2vuhhnf90bccmoi.apps.googleusercontent.com%23&oauth=1&rip=1",
+    "https://accounts.google.com/SignUp?continue=https%3A%2F%2Faccounts.google.com%2Fsignin%2Foauth%2Flegacy%2Fconsent%3Fauthuser%3Dunknown%26part%3DAJi8hAOioOaRUQt2PO2Nx0--c-d2_PPZew13qkddADbt21vBd9MQmkNMUWu3a8nuidlkI8QerUmpWyN3z23rWLw6BagHZQGAf-lhbHk4OGyEu9vq8YjMMJomVaxFJwxzMDTMWoOK1xH_pIsHtst-T6sLUg_f6333O1fqW1BW-xq3uLh8nJvg6uzAnZt1y8HBE8pcoLbcl2zZe5lmaImnVWZqgtGlg1tvtnoZfTaOx4Jb8iVe1dmqoL67pWf_Bp7DtUs3HYPV-AVkZLCNMi7I5MHLT3Cxd1hgB5YTPE_t334ZTpu1XmIwQ8bzC3-j21vVHVAJfU8WinIrj-17Hx5cyqweWeynVvgbzIR1PUDNg_JCJhoDkMgIusi1ZuPjUmhaqjWKtwG6irGQ8wREUvpXW0FDiWFuFl2CN34ZWzyZ_zVqtN7TaEmddeIwImoJfsMJgNx9mmS8Jc72bSiLvjrujG2QFZfLDHMSGQ%26as%3DS2030114143%253A1671679444963442%26client_id%3D157101835696-ooapojlodmuabs2do2vuhhnf90bccmoi.apps.googleusercontent.com%23",
+    "https://accounts.google.com/TOS?loc=US&hl=en&privacy=true",
+    "https://accounts.google.com/TOS?loc=US&hl=en"
   ],
   "results": {
     "/": {
@@ -5897,16 +5971,16 @@
       }
     },
     "/ServiceLogin": {
-      "https://accounts.google.com/signin/usernamerecovery?continue=https%3A%2F%2Faccounts.google.com%2Fsignin%2Foauth%2Flegacy%2Fconsent%3Fauthuser%3Dunknown%26part%3DAJi8hAPVukETLxaegAMMnr_kZlyE90Xm7Zrvw_d7ELTTCp3Wxu1PBlptVtqePP7Z-V5N_2PV-uV-fG2mwk3XgHCgtRl-SNv2wqxJG7R-a_eBcvLFaiL_IK9Eq4XbG1tMlLs2C0MINq7NiGNod07HHDnDGSa_ZiS3Lu5fHwMzqFb5cmsHwGnUiNgeOk6dYG42GeLbjtuR2cFV-6EVuLwjDtzC1kDluVJxbeI1H1GgWoYprP21ZhLN8fQYb7lZrAcUrAaK-txilWgblrqs2XTFLTF9h2r0sAtkZeycpIIrQh9rMi5TQq5OAweKENJbIgA6IsfCb6yp7lvbgEnI3u3In3dbSRtZ_26tr07ssuSRz8QpLTiOgEWC8lPSBKFuITgzLli1PlPe04eyi3QaJNEXGCTYGfT2UWB8OB336HPISAU_7ca32JAuSC_3aJTXwGCbSTKlLDzpWSwBWMtXAq4IHXqDkKdMRSWrcA%26as%3DS1342257320%253A1671669109473048%26client_id%3D157101835696-ooapojlodmuabs2do2vuhhnf90bccmoi.apps.googleusercontent.com%23&oauth=1&hl=en": {
-        "computed_url": "https://accounts.google.com/signin/usernamerecovery?continue=https%3A%2F%2Faccounts.google.com%2Fsignin%2Foauth%2Flegacy%2Fconsent%3Fauthuser%3Dunknown%26part%3DAJi8hAPVukETLxaegAMMnr_kZlyE90Xm7Zrvw_d7ELTTCp3Wxu1PBlptVtqePP7Z-V5N_2PV-uV-fG2mwk3XgHCgtRl-SNv2wqxJG7R-a_eBcvLFaiL_IK9Eq4XbG1tMlLs2C0MINq7NiGNod07HHDnDGSa_ZiS3Lu5fHwMzqFb5cmsHwGnUiNgeOk6dYG42GeLbjtuR2cFV-6EVuLwjDtzC1kDluVJxbeI1H1GgWoYprP21ZhLN8fQYb7lZrAcUrAaK-txilWgblrqs2XTFLTF9h2r0sAtkZeycpIIrQh9rMi5TQq5OAweKENJbIgA6IsfCb6yp7lvbgEnI3u3In3dbSRtZ_26tr07ssuSRz8QpLTiOgEWC8lPSBKFuITgzLli1PlPe04eyi3QaJNEXGCTYGfT2UWB8OB336HPISAU_7ca32JAuSC_3aJTXwGCbSTKlLDzpWSwBWMtXAq4IHXqDkKdMRSWrcA%26as%3DS1342257320%253A1671669109473048%26client_id%3D157101835696-ooapojlodmuabs2do2vuhhnf90bccmoi.apps.googleusercontent.com%23&oauth=1&hl=en",
+      "https://accounts.google.com/signin/usernamerecovery?continue=https%3A%2F%2Faccounts.google.com%2Fsignin%2Foauth%2Flegacy%2Fconsent%3Fauthuser%3Dunknown%26part%3DAJi8hAOioOaRUQt2PO2Nx0--c-d2_PPZew13qkddADbt21vBd9MQmkNMUWu3a8nuidlkI8QerUmpWyN3z23rWLw6BagHZQGAf-lhbHk4OGyEu9vq8YjMMJomVaxFJwxzMDTMWoOK1xH_pIsHtst-T6sLUg_f6333O1fqW1BW-xq3uLh8nJvg6uzAnZt1y8HBE8pcoLbcl2zZe5lmaImnVWZqgtGlg1tvtnoZfTaOx4Jb8iVe1dmqoL67pWf_Bp7DtUs3HYPV-AVkZLCNMi7I5MHLT3Cxd1hgB5YTPE_t334ZTpu1XmIwQ8bzC3-j21vVHVAJfU8WinIrj-17Hx5cyqweWeynVvgbzIR1PUDNg_JCJhoDkMgIusi1ZuPjUmhaqjWKtwG6irGQ8wREUvpXW0FDiWFuFl2CN34ZWzyZ_zVqtN7TaEmddeIwImoJfsMJgNx9mmS8Jc72bSiLvjrujG2QFZfLDHMSGQ%26as%3DS2030114143%253A1671679444963442%26client_id%3D157101835696-ooapojlodmuabs2do2vuhhnf90bccmoi.apps.googleusercontent.com%23&oauth=1&hl=en": {
+        "computed_url": "https://accounts.google.com/signin/usernamerecovery?continue=https%3A%2F%2Faccounts.google.com%2Fsignin%2Foauth%2Flegacy%2Fconsent%3Fauthuser%3Dunknown%26part%3DAJi8hAOioOaRUQt2PO2Nx0--c-d2_PPZew13qkddADbt21vBd9MQmkNMUWu3a8nuidlkI8QerUmpWyN3z23rWLw6BagHZQGAf-lhbHk4OGyEu9vq8YjMMJomVaxFJwxzMDTMWoOK1xH_pIsHtst-T6sLUg_f6333O1fqW1BW-xq3uLh8nJvg6uzAnZt1y8HBE8pcoLbcl2zZe5lmaImnVWZqgtGlg1tvtnoZfTaOx4Jb8iVe1dmqoL67pWf_Bp7DtUs3HYPV-AVkZLCNMi7I5MHLT3Cxd1hgB5YTPE_t334ZTpu1XmIwQ8bzC3-j21vVHVAJfU8WinIrj-17Hx5cyqweWeynVvgbzIR1PUDNg_JCJhoDkMgIusi1ZuPjUmhaqjWKtwG6irGQ8wREUvpXW0FDiWFuFl2CN34ZWzyZ_zVqtN7TaEmddeIwImoJfsMJgNx9mmS8Jc72bSiLvjrujG2QFZfLDHMSGQ%26as%3DS2030114143%253A1671679444963442%26client_id%3D157101835696-ooapojlodmuabs2do2vuhhnf90bccmoi.apps.googleusercontent.com%23&oauth=1&hl=en",
         "ok": true
       },
-      "https://accounts.google.com/AccountChooser?continue=https%3A%2F%2Faccounts.google.com%2Fsignin%2Foauth%2Flegacy%2Fconsent%3Fauthuser%3Dunknown%26part%3DAJi8hAPVukETLxaegAMMnr_kZlyE90Xm7Zrvw_d7ELTTCp3Wxu1PBlptVtqePP7Z-V5N_2PV-uV-fG2mwk3XgHCgtRl-SNv2wqxJG7R-a_eBcvLFaiL_IK9Eq4XbG1tMlLs2C0MINq7NiGNod07HHDnDGSa_ZiS3Lu5fHwMzqFb5cmsHwGnUiNgeOk6dYG42GeLbjtuR2cFV-6EVuLwjDtzC1kDluVJxbeI1H1GgWoYprP21ZhLN8fQYb7lZrAcUrAaK-txilWgblrqs2XTFLTF9h2r0sAtkZeycpIIrQh9rMi5TQq5OAweKENJbIgA6IsfCb6yp7lvbgEnI3u3In3dbSRtZ_26tr07ssuSRz8QpLTiOgEWC8lPSBKFuITgzLli1PlPe04eyi3QaJNEXGCTYGfT2UWB8OB336HPISAU_7ca32JAuSC_3aJTXwGCbSTKlLDzpWSwBWMtXAq4IHXqDkKdMRSWrcA%26as%3DS1342257320%253A1671669109473048%26client_id%3D157101835696-ooapojlodmuabs2do2vuhhnf90bccmoi.apps.googleusercontent.com%23&oauth=1&rip=1": {
-        "computed_url": "https://accounts.google.com/AccountChooser?continue=https%3A%2F%2Faccounts.google.com%2Fsignin%2Foauth%2Flegacy%2Fconsent%3Fauthuser%3Dunknown%26part%3DAJi8hAPVukETLxaegAMMnr_kZlyE90Xm7Zrvw_d7ELTTCp3Wxu1PBlptVtqePP7Z-V5N_2PV-uV-fG2mwk3XgHCgtRl-SNv2wqxJG7R-a_eBcvLFaiL_IK9Eq4XbG1tMlLs2C0MINq7NiGNod07HHDnDGSa_ZiS3Lu5fHwMzqFb5cmsHwGnUiNgeOk6dYG42GeLbjtuR2cFV-6EVuLwjDtzC1kDluVJxbeI1H1GgWoYprP21ZhLN8fQYb7lZrAcUrAaK-txilWgblrqs2XTFLTF9h2r0sAtkZeycpIIrQh9rMi5TQq5OAweKENJbIgA6IsfCb6yp7lvbgEnI3u3In3dbSRtZ_26tr07ssuSRz8QpLTiOgEWC8lPSBKFuITgzLli1PlPe04eyi3QaJNEXGCTYGfT2UWB8OB336HPISAU_7ca32JAuSC_3aJTXwGCbSTKlLDzpWSwBWMtXAq4IHXqDkKdMRSWrcA%26as%3DS1342257320%253A1671669109473048%26client_id%3D157101835696-ooapojlodmuabs2do2vuhhnf90bccmoi.apps.googleusercontent.com%23&oauth=1&rip=1",
+      "https://accounts.google.com/AccountChooser?continue=https%3A%2F%2Faccounts.google.com%2Fsignin%2Foauth%2Flegacy%2Fconsent%3Fauthuser%3Dunknown%26part%3DAJi8hAOioOaRUQt2PO2Nx0--c-d2_PPZew13qkddADbt21vBd9MQmkNMUWu3a8nuidlkI8QerUmpWyN3z23rWLw6BagHZQGAf-lhbHk4OGyEu9vq8YjMMJomVaxFJwxzMDTMWoOK1xH_pIsHtst-T6sLUg_f6333O1fqW1BW-xq3uLh8nJvg6uzAnZt1y8HBE8pcoLbcl2zZe5lmaImnVWZqgtGlg1tvtnoZfTaOx4Jb8iVe1dmqoL67pWf_Bp7DtUs3HYPV-AVkZLCNMi7I5MHLT3Cxd1hgB5YTPE_t334ZTpu1XmIwQ8bzC3-j21vVHVAJfU8WinIrj-17Hx5cyqweWeynVvgbzIR1PUDNg_JCJhoDkMgIusi1ZuPjUmhaqjWKtwG6irGQ8wREUvpXW0FDiWFuFl2CN34ZWzyZ_zVqtN7TaEmddeIwImoJfsMJgNx9mmS8Jc72bSiLvjrujG2QFZfLDHMSGQ%26as%3DS2030114143%253A1671679444963442%26client_id%3D157101835696-ooapojlodmuabs2do2vuhhnf90bccmoi.apps.googleusercontent.com%23&oauth=1&rip=1": {
+        "computed_url": "https://accounts.google.com/AccountChooser?continue=https%3A%2F%2Faccounts.google.com%2Fsignin%2Foauth%2Flegacy%2Fconsent%3Fauthuser%3Dunknown%26part%3DAJi8hAOioOaRUQt2PO2Nx0--c-d2_PPZew13qkddADbt21vBd9MQmkNMUWu3a8nuidlkI8QerUmpWyN3z23rWLw6BagHZQGAf-lhbHk4OGyEu9vq8YjMMJomVaxFJwxzMDTMWoOK1xH_pIsHtst-T6sLUg_f6333O1fqW1BW-xq3uLh8nJvg6uzAnZt1y8HBE8pcoLbcl2zZe5lmaImnVWZqgtGlg1tvtnoZfTaOx4Jb8iVe1dmqoL67pWf_Bp7DtUs3HYPV-AVkZLCNMi7I5MHLT3Cxd1hgB5YTPE_t334ZTpu1XmIwQ8bzC3-j21vVHVAJfU8WinIrj-17Hx5cyqweWeynVvgbzIR1PUDNg_JCJhoDkMgIusi1ZuPjUmhaqjWKtwG6irGQ8wREUvpXW0FDiWFuFl2CN34ZWzyZ_zVqtN7TaEmddeIwImoJfsMJgNx9mmS8Jc72bSiLvjrujG2QFZfLDHMSGQ%26as%3DS2030114143%253A1671679444963442%26client_id%3D157101835696-ooapojlodmuabs2do2vuhhnf90bccmoi.apps.googleusercontent.com%23&oauth=1&rip=1",
         "ok": true
       },
-      "https://accounts.google.com/SignUp?continue=https%3A%2F%2Faccounts.google.com%2Fsignin%2Foauth%2Flegacy%2Fconsent%3Fauthuser%3Dunknown%26part%3DAJi8hAPVukETLxaegAMMnr_kZlyE90Xm7Zrvw_d7ELTTCp3Wxu1PBlptVtqePP7Z-V5N_2PV-uV-fG2mwk3XgHCgtRl-SNv2wqxJG7R-a_eBcvLFaiL_IK9Eq4XbG1tMlLs2C0MINq7NiGNod07HHDnDGSa_ZiS3Lu5fHwMzqFb5cmsHwGnUiNgeOk6dYG42GeLbjtuR2cFV-6EVuLwjDtzC1kDluVJxbeI1H1GgWoYprP21ZhLN8fQYb7lZrAcUrAaK-txilWgblrqs2XTFLTF9h2r0sAtkZeycpIIrQh9rMi5TQq5OAweKENJbIgA6IsfCb6yp7lvbgEnI3u3In3dbSRtZ_26tr07ssuSRz8QpLTiOgEWC8lPSBKFuITgzLli1PlPe04eyi3QaJNEXGCTYGfT2UWB8OB336HPISAU_7ca32JAuSC_3aJTXwGCbSTKlLDzpWSwBWMtXAq4IHXqDkKdMRSWrcA%26as%3DS1342257320%253A1671669109473048%26client_id%3D157101835696-ooapojlodmuabs2do2vuhhnf90bccmoi.apps.googleusercontent.com%23": {
-        "computed_url": "https://accounts.google.com/SignUp?continue=https%3A%2F%2Faccounts.google.com%2Fsignin%2Foauth%2Flegacy%2Fconsent%3Fauthuser%3Dunknown%26part%3DAJi8hAPVukETLxaegAMMnr_kZlyE90Xm7Zrvw_d7ELTTCp3Wxu1PBlptVtqePP7Z-V5N_2PV-uV-fG2mwk3XgHCgtRl-SNv2wqxJG7R-a_eBcvLFaiL_IK9Eq4XbG1tMlLs2C0MINq7NiGNod07HHDnDGSa_ZiS3Lu5fHwMzqFb5cmsHwGnUiNgeOk6dYG42GeLbjtuR2cFV-6EVuLwjDtzC1kDluVJxbeI1H1GgWoYprP21ZhLN8fQYb7lZrAcUrAaK-txilWgblrqs2XTFLTF9h2r0sAtkZeycpIIrQh9rMi5TQq5OAweKENJbIgA6IsfCb6yp7lvbgEnI3u3In3dbSRtZ_26tr07ssuSRz8QpLTiOgEWC8lPSBKFuITgzLli1PlPe04eyi3QaJNEXGCTYGfT2UWB8OB336HPISAU_7ca32JAuSC_3aJTXwGCbSTKlLDzpWSwBWMtXAq4IHXqDkKdMRSWrcA%26as%3DS1342257320%253A1671669109473048%26client_id%3D157101835696-ooapojlodmuabs2do2vuhhnf90bccmoi.apps.googleusercontent.com%23",
+      "https://accounts.google.com/SignUp?continue=https%3A%2F%2Faccounts.google.com%2Fsignin%2Foauth%2Flegacy%2Fconsent%3Fauthuser%3Dunknown%26part%3DAJi8hAOioOaRUQt2PO2Nx0--c-d2_PPZew13qkddADbt21vBd9MQmkNMUWu3a8nuidlkI8QerUmpWyN3z23rWLw6BagHZQGAf-lhbHk4OGyEu9vq8YjMMJomVaxFJwxzMDTMWoOK1xH_pIsHtst-T6sLUg_f6333O1fqW1BW-xq3uLh8nJvg6uzAnZt1y8HBE8pcoLbcl2zZe5lmaImnVWZqgtGlg1tvtnoZfTaOx4Jb8iVe1dmqoL67pWf_Bp7DtUs3HYPV-AVkZLCNMi7I5MHLT3Cxd1hgB5YTPE_t334ZTpu1XmIwQ8bzC3-j21vVHVAJfU8WinIrj-17Hx5cyqweWeynVvgbzIR1PUDNg_JCJhoDkMgIusi1ZuPjUmhaqjWKtwG6irGQ8wREUvpXW0FDiWFuFl2CN34ZWzyZ_zVqtN7TaEmddeIwImoJfsMJgNx9mmS8Jc72bSiLvjrujG2QFZfLDHMSGQ%26as%3DS2030114143%253A1671679444963442%26client_id%3D157101835696-ooapojlodmuabs2do2vuhhnf90bccmoi.apps.googleusercontent.com%23": {
+        "computed_url": "https://accounts.google.com/SignUp?continue=https%3A%2F%2Faccounts.google.com%2Fsignin%2Foauth%2Flegacy%2Fconsent%3Fauthuser%3Dunknown%26part%3DAJi8hAOioOaRUQt2PO2Nx0--c-d2_PPZew13qkddADbt21vBd9MQmkNMUWu3a8nuidlkI8QerUmpWyN3z23rWLw6BagHZQGAf-lhbHk4OGyEu9vq8YjMMJomVaxFJwxzMDTMWoOK1xH_pIsHtst-T6sLUg_f6333O1fqW1BW-xq3uLh8nJvg6uzAnZt1y8HBE8pcoLbcl2zZe5lmaImnVWZqgtGlg1tvtnoZfTaOx4Jb8iVe1dmqoL67pWf_Bp7DtUs3HYPV-AVkZLCNMi7I5MHLT3Cxd1hgB5YTPE_t334ZTpu1XmIwQ8bzC3-j21vVHVAJfU8WinIrj-17Hx5cyqweWeynVvgbzIR1PUDNg_JCJhoDkMgIusi1ZuPjUmhaqjWKtwG6irGQ8wREUvpXW0FDiWFuFl2CN34ZWzyZ_zVqtN7TaEmddeIwImoJfsMJgNx9mmS8Jc72bSiLvjrujG2QFZfLDHMSGQ%26as%3DS2030114143%253A1671679444963442%26client_id%3D157101835696-ooapojlodmuabs2do2vuhhnf90bccmoi.apps.googleusercontent.com%23",
         "ok": true
       },
       "https://www.google.com/intl/en/about": {
@@ -5958,9 +6032,9 @@
         "sdk_-_build_software_for_fuchsia",
         "source_tree_-_contribute_to_fuchsia",
         "devsite-thumb-label-footer",
-        "apiproxyabda1299009f93e915d7edaf630b4e552b1425850.224995019"
+        "apiproxyabda1299009f93e915d7edaf630b4e552b1425850.3519621675"
       ],
-      "last_visit": 1671677228
+      "last_visit": 1671679444
     },
     "https://fuchsia.dev/fuchsia-src/development/sdk": {
       "ok": true,
@@ -16383,7 +16457,7 @@
     },
     "https://accounts.google.com/ServiceLogin": {
       "ok": true,
-      "final_url": "https://accounts.google.com/ServiceLogin?continue=https%3A%2F%2Faccounts.google.com%2Fsignin%2Foauth%2Flegacy%2Fconsent%3Fauthuser%3Dunknown%26part%3DAJi8hAPVukETLxaegAMMnr_kZlyE90Xm7Zrvw_d7ELTTCp3Wxu1PBlptVtqePP7Z-V5N_2PV-uV-fG2mwk3XgHCgtRl-SNv2wqxJG7R-a_eBcvLFaiL_IK9Eq4XbG1tMlLs2C0MINq7NiGNod07HHDnDGSa_ZiS3Lu5fHwMzqFb5cmsHwGnUiNgeOk6dYG42GeLbjtuR2cFV-6EVuLwjDtzC1kDluVJxbeI1H1GgWoYprP21ZhLN8fQYb7lZrAcUrAaK-txilWgblrqs2XTFLTF9h2r0sAtkZeycpIIrQh9rMi5TQq5OAweKENJbIgA6IsfCb6yp7lvbgEnI3u3In3dbSRtZ_26tr07ssuSRz8QpLTiOgEWC8lPSBKFuITgzLli1PlPe04eyi3QaJNEXGCTYGfT2UWB8OB336HPISAU_7ca32JAuSC_3aJTXwGCbSTKlLDzpWSwBWMtXAq4IHXqDkKdMRSWrcA%26as%3DS1342257320%253A1671669109473048%26client_id%3D157101835696-ooapojlodmuabs2do2vuhhnf90bccmoi.apps.googleusercontent.com%23&sacu=1&oauth=1&rip=1",
+      "final_url": "https://accounts.google.com/ServiceLogin?continue=https%3A%2F%2Faccounts.google.com%2Fsignin%2Foauth%2Flegacy%2Fconsent%3Fauthuser%3Dunknown%26part%3DAJi8hAOioOaRUQt2PO2Nx0--c-d2_PPZew13qkddADbt21vBd9MQmkNMUWu3a8nuidlkI8QerUmpWyN3z23rWLw6BagHZQGAf-lhbHk4OGyEu9vq8YjMMJomVaxFJwxzMDTMWoOK1xH_pIsHtst-T6sLUg_f6333O1fqW1BW-xq3uLh8nJvg6uzAnZt1y8HBE8pcoLbcl2zZe5lmaImnVWZqgtGlg1tvtnoZfTaOx4Jb8iVe1dmqoL67pWf_Bp7DtUs3HYPV-AVkZLCNMi7I5MHLT3Cxd1hgB5YTPE_t334ZTpu1XmIwQ8bzC3-j21vVHVAJfU8WinIrj-17Hx5cyqweWeynVvgbzIR1PUDNg_JCJhoDkMgIusi1ZuPjUmhaqjWKtwG6irGQ8wREUvpXW0FDiWFuFl2CN34ZWzyZ_zVqtN7TaEmddeIwImoJfsMJgNx9mmS8Jc72bSiLvjrujG2QFZfLDHMSGQ%26as%3DS2030114143%253A1671679444963442%26client_id%3D157101835696-ooapojlodmuabs2do2vuhhnf90bccmoi.apps.googleusercontent.com%23&sacu=1&oauth=1&rip=1",
       "ids": [
         "gaia_loginform",
         "profile-information",
@@ -16403,7 +16477,7 @@
         "lang-chooser-wrap",
         "lang-chooser"
       ],
-      "last_visit": 1671669111
+      "last_visit": 1671679446
     },
     "https://accounts.google.com/signin/usernamerecovery?continue=https%3A%2F%2Faccounts.google.com%2Fsignin%2Foauth%2Flegacy%2Fconsent%3Fauthuser%3Dunknown%26part%3DAJi8hAPVukETLxaegAMMnr_kZlyE90Xm7Zrvw_d7ELTTCp3Wxu1PBlptVtqePP7Z-V5N_2PV-uV-fG2mwk3XgHCgtRl-SNv2wqxJG7R-a_eBcvLFaiL_IK9Eq4XbG1tMlLs2C0MINq7NiGNod07HHDnDGSa_ZiS3Lu5fHwMzqFb5cmsHwGnUiNgeOk6dYG42GeLbjtuR2cFV-6EVuLwjDtzC1kDluVJxbeI1H1GgWoYprP21ZhLN8fQYb7lZrAcUrAaK-txilWgblrqs2XTFLTF9h2r0sAtkZeycpIIrQh9rMi5TQq5OAweKENJbIgA6IsfCb6yp7lvbgEnI3u3In3dbSRtZ_26tr07ssuSRz8QpLTiOgEWC8lPSBKFuITgzLli1PlPe04eyi3QaJNEXGCTYGfT2UWB8OB336HPISAU_7ca32JAuSC_3aJTXwGCbSTKlLDzpWSwBWMtXAq4IHXqDkKdMRSWrcA%26as%3DS1342257320%253A1671669109473048%26client_id%3D157101835696-ooapojlodmuabs2do2vuhhnf90bccmoi.apps.googleusercontent.com%23&oauth=1&hl=en": {
       "ok": true,
@@ -16731,6 +16805,79 @@
         "apiproxy480fc648c905dcf1c93a61716c4365e964afd5710.2854217864"
       ],
       "last_visit": 1671669123
+    },
+    "https://accounts.google.com/signin/usernamerecovery?continue=https%3A%2F%2Faccounts.google.com%2Fsignin%2Foauth%2Flegacy%2Fconsent%3Fauthuser%3Dunknown%26part%3DAJi8hAOioOaRUQt2PO2Nx0--c-d2_PPZew13qkddADbt21vBd9MQmkNMUWu3a8nuidlkI8QerUmpWyN3z23rWLw6BagHZQGAf-lhbHk4OGyEu9vq8YjMMJomVaxFJwxzMDTMWoOK1xH_pIsHtst-T6sLUg_f6333O1fqW1BW-xq3uLh8nJvg6uzAnZt1y8HBE8pcoLbcl2zZe5lmaImnVWZqgtGlg1tvtnoZfTaOx4Jb8iVe1dmqoL67pWf_Bp7DtUs3HYPV-AVkZLCNMi7I5MHLT3Cxd1hgB5YTPE_t334ZTpu1XmIwQ8bzC3-j21vVHVAJfU8WinIrj-17Hx5cyqweWeynVvgbzIR1PUDNg_JCJhoDkMgIusi1ZuPjUmhaqjWKtwG6irGQ8wREUvpXW0FDiWFuFl2CN34ZWzyZ_zVqtN7TaEmddeIwImoJfsMJgNx9mmS8Jc72bSiLvjrujG2QFZfLDHMSGQ%26as%3DS2030114143%253A1671679444963442%26client_id%3D157101835696-ooapojlodmuabs2do2vuhhnf90bccmoi.apps.googleusercontent.com%23&oauth=1&hl=en": {
+      "ok": true,
+      "final_url": "https://accounts.google.com/signin/usernamerecovery?continue=https%3A%2F%2Faccounts.google.com%2Fsignin%2Foauth%2Flegacy%2Fconsent%3Fauthuser%3Dunknown%26part%3DAJi8hAOioOaRUQt2PO2Nx0--c-d2_PPZew13qkddADbt21vBd9MQmkNMUWu3a8nuidlkI8QerUmpWyN3z23rWLw6BagHZQGAf-lhbHk4OGyEu9vq8YjMMJomVaxFJwxzMDTMWoOK1xH_pIsHtst-T6sLUg_f6333O1fqW1BW-xq3uLh8nJvg6uzAnZt1y8HBE8pcoLbcl2zZe5lmaImnVWZqgtGlg1tvtnoZfTaOx4Jb8iVe1dmqoL67pWf_Bp7DtUs3HYPV-AVkZLCNMi7I5MHLT3Cxd1hgB5YTPE_t334ZTpu1XmIwQ8bzC3-j21vVHVAJfU8WinIrj-17Hx5cyqweWeynVvgbzIR1PUDNg_JCJhoDkMgIusi1ZuPjUmhaqjWKtwG6irGQ8wREUvpXW0FDiWFuFl2CN34ZWzyZ_zVqtN7TaEmddeIwImoJfsMJgNx9mmS8Jc72bSiLvjrujG2QFZfLDHMSGQ%26as%3DS2030114143%253A1671679444963442%26client_id%3D157101835696-ooapojlodmuabs2do2vuhhnf90bccmoi.apps.googleusercontent.com%23&oauth=1&hl=en",
+      "ids": [
+        "base-js",
+        "yDmH0d",
+        "ccIframeParent",
+        "profileImg",
+        "identifier",
+        "gxf",
+        "_utf8",
+        "next",
+        "footer-list",
+        "lang-vis-control",
+        "lang-chooser-wrap",
+        "lang-chooser"
+      ],
+      "last_visit": 1671679446
+    },
+    "https://accounts.google.com/AccountChooser?continue=https%3A%2F%2Faccounts.google.com%2Fsignin%2Foauth%2Flegacy%2Fconsent%3Fauthuser%3Dunknown%26part%3DAJi8hAOioOaRUQt2PO2Nx0--c-d2_PPZew13qkddADbt21vBd9MQmkNMUWu3a8nuidlkI8QerUmpWyN3z23rWLw6BagHZQGAf-lhbHk4OGyEu9vq8YjMMJomVaxFJwxzMDTMWoOK1xH_pIsHtst-T6sLUg_f6333O1fqW1BW-xq3uLh8nJvg6uzAnZt1y8HBE8pcoLbcl2zZe5lmaImnVWZqgtGlg1tvtnoZfTaOx4Jb8iVe1dmqoL67pWf_Bp7DtUs3HYPV-AVkZLCNMi7I5MHLT3Cxd1hgB5YTPE_t334ZTpu1XmIwQ8bzC3-j21vVHVAJfU8WinIrj-17Hx5cyqweWeynVvgbzIR1PUDNg_JCJhoDkMgIusi1ZuPjUmhaqjWKtwG6irGQ8wREUvpXW0FDiWFuFl2CN34ZWzyZ_zVqtN7TaEmddeIwImoJfsMJgNx9mmS8Jc72bSiLvjrujG2QFZfLDHMSGQ%26as%3DS2030114143%253A1671679444963442%26client_id%3D157101835696-ooapojlodmuabs2do2vuhhnf90bccmoi.apps.googleusercontent.com%23&oauth=1&rip=1": {
+      "ok": true,
+      "final_url": "https://accounts.google.com/ServiceLogin?continue=https%3A%2F%2Faccounts.google.com%2Fsignin%2Foauth%2Flegacy%2Fconsent%3Fauthuser%3Dunknown%26part%3DAJi8hAOioOaRUQt2PO2Nx0--c-d2_PPZew13qkddADbt21vBd9MQmkNMUWu3a8nuidlkI8QerUmpWyN3z23rWLw6BagHZQGAf-lhbHk4OGyEu9vq8YjMMJomVaxFJwxzMDTMWoOK1xH_pIsHtst-T6sLUg_f6333O1fqW1BW-xq3uLh8nJvg6uzAnZt1y8HBE8pcoLbcl2zZe5lmaImnVWZqgtGlg1tvtnoZfTaOx4Jb8iVe1dmqoL67pWf_Bp7DtUs3HYPV-AVkZLCNMi7I5MHLT3Cxd1hgB5YTPE_t334ZTpu1XmIwQ8bzC3-j21vVHVAJfU8WinIrj-17Hx5cyqweWeynVvgbzIR1PUDNg_JCJhoDkMgIusi1ZuPjUmhaqjWKtwG6irGQ8wREUvpXW0FDiWFuFl2CN34ZWzyZ_zVqtN7TaEmddeIwImoJfsMJgNx9mmS8Jc72bSiLvjrujG2QFZfLDHMSGQ%26as%3DS2030114143%253A1671679444963442%26client_id%3D157101835696-ooapojlodmuabs2do2vuhhnf90bccmoi.apps.googleusercontent.com%23&sacu=1&oauth=1&rip=1",
+      "ids": [
+        "gaia_loginform",
+        "profile-information",
+        "session-state",
+        "_utf8",
+        "bgresponse",
+        "gaia_firstform",
+        "identifier-shown",
+        "Email",
+        "Passwd-hidden",
+        "errormsg_0_Email",
+        "next",
+        "link-signin-different",
+        "link-signup",
+        "footer-list",
+        "lang-vis-control",
+        "lang-chooser-wrap",
+        "lang-chooser"
+      ],
+      "last_visit": 1671679447
+    },
+    "https://accounts.google.com/SignUp?continue=https%3A%2F%2Faccounts.google.com%2Fsignin%2Foauth%2Flegacy%2Fconsent%3Fauthuser%3Dunknown%26part%3DAJi8hAOioOaRUQt2PO2Nx0--c-d2_PPZew13qkddADbt21vBd9MQmkNMUWu3a8nuidlkI8QerUmpWyN3z23rWLw6BagHZQGAf-lhbHk4OGyEu9vq8YjMMJomVaxFJwxzMDTMWoOK1xH_pIsHtst-T6sLUg_f6333O1fqW1BW-xq3uLh8nJvg6uzAnZt1y8HBE8pcoLbcl2zZe5lmaImnVWZqgtGlg1tvtnoZfTaOx4Jb8iVe1dmqoL67pWf_Bp7DtUs3HYPV-AVkZLCNMi7I5MHLT3Cxd1hgB5YTPE_t334ZTpu1XmIwQ8bzC3-j21vVHVAJfU8WinIrj-17Hx5cyqweWeynVvgbzIR1PUDNg_JCJhoDkMgIusi1ZuPjUmhaqjWKtwG6irGQ8wREUvpXW0FDiWFuFl2CN34ZWzyZ_zVqtN7TaEmddeIwImoJfsMJgNx9mmS8Jc72bSiLvjrujG2QFZfLDHMSGQ%26as%3DS2030114143%253A1671679444963442%26client_id%3D157101835696-ooapojlodmuabs2do2vuhhnf90bccmoi.apps.googleusercontent.com%23": {
+      "ok": true,
+      "final_url": "https://accounts.google.com/signup/v2/webcreateaccount?continue=https%3A%2F%2Faccounts.google.com%2Fsignin%2Foauth%2Flegacy%2Fconsent%3Fauthuser%3Dunknown%26part%3DAJi8hAOioOaRUQt2PO2Nx0--c-d2_PPZew13qkddADbt21vBd9MQmkNMUWu3a8nuidlkI8QerUmpWyN3z23rWLw6BagHZQGAf-lhbHk4OGyEu9vq8YjMMJomVaxFJwxzMDTMWoOK1xH_pIsHtst-T6sLUg_f6333O1fqW1BW-xq3uLh8nJvg6uzAnZt1y8HBE8pcoLbcl2zZe5lmaImnVWZqgtGlg1tvtnoZfTaOx4Jb8iVe1dmqoL67pWf_Bp7DtUs3HYPV-AVkZLCNMi7I5MHLT3Cxd1hgB5YTPE_t334ZTpu1XmIwQ8bzC3-j21vVHVAJfU8WinIrj-17Hx5cyqweWeynVvgbzIR1PUDNg_JCJhoDkMgIusi1ZuPjUmhaqjWKtwG6irGQ8wREUvpXW0FDiWFuFl2CN34ZWzyZ_zVqtN7TaEmddeIwImoJfsMJgNx9mmS8Jc72bSiLvjrujG2QFZfLDHMSGQ%26as%3DS2030114143%253A1671679444963442%26client_id%3D157101835696-ooapojlodmuabs2do2vuhhnf90bccmoi.apps.googleusercontent.com%23&flowName=GlifWebSignIn&flowEntry=SignUp",
+      "ids": [
+        "base-js",
+        "yDmH0d",
+        "initialView",
+        "logo",
+        "qaEJec",
+        "YGlOvc",
+        "BWfIk",
+        "e6m3fd",
+        "vbkDmc",
+        "idEJde",
+        "view_container",
+        "headingText",
+        "headingSubtext",
+        "firstName",
+        "lastName",
+        "nameError",
+        "username",
+        "domainSuffix",
+        "passwd",
+        "confirm-passwd",
+        "selectioni1",
+        "accountDetailsNext",
+        "lang-chooser"
+      ],
+      "last_visit": 1671679449
     }
   }
 }
