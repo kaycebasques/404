@@ -90,7 +90,7 @@ def scrape(page, data):
       page.wait_for_load_state(load_state)
     except:
       data['results'][pathname][href]['ok'] = False
-      data['results'][pathname][href]['ok'] = False
+      data['metadata'][computed_url]['ok'] = False
       return data
     data = update_metadata(page, response, computed_url, data)
     if href == '#':
