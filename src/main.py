@@ -2,6 +2,7 @@ import lib
 from playwright.sync_api import sync_playwright
 from time import time
 from json import dumps
+from sys import argv
 
 def compute_url(protocol, origin, pathname, href):
   if href.startswith('//'):
@@ -108,6 +109,26 @@ def scrape(page, data):
       data['results'][pathname][href]['ok'] = data['metadata'][computed_url]['ok']
   return data
 
+def fix():
+  site = lib.read_json('data/site.json')
+  with sync_playwright() as synchronous_playwright:
+    browser = synchronous_playwright.chromium.launch(headless=False)
+    context = browser.new_context()
+    context.set_default_timeout(10000)
+    page = context.new_page()
+    for pathname in site['results']:
+      data = site['results'][pathname]
+      for href in data:
+        if data[href]['ok']:
+          continue
+        computed_url = data[href]['computed_url']
+        response = page.goto(computed_url)
+        answer = input('OK? (y/n): ')
+        if answer == 'y':
+          site = update_metadata(page, response, computed_url, site)
+        else:
+          site = update_metadata(None, None, computed_url, site)
+
 def main():
   start_time = time()
   data = lib.read_json('data/site.json')
@@ -125,4 +146,7 @@ def main():
   lib.write_json('data/site.json', data)
 
 if __name__ == '__main__':
-  main()
+  if len(argv) == 1:
+    main()
+  elif len(argv) == 2 and argv[1] == 'fix':
+    fix()
