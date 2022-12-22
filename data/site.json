@@ -3,7 +3,6 @@
     "maximum_run_time": 5
   },
   "todo": [
-    "https://fuchsia.dev/fuchsia-src/get-started/sdk/learn/components",
     "https://fuchsia.dev/fuchsia-src/get-started/sdk/learn/components/declaring-components",
     "https://fuchsia.dev/fuchsia-src/get-started/sdk/learn/components/organizing-components",
     "https://fuchsia.dev/fuchsia-src/get-started/sdk/learn/components/component-tests",
@@ -6958,7 +6957,82 @@
     "https://fuchsia.dev/docs/concepts/packages/merkleroot",
     "https://fuchsia.dev/docs/concepts/packages/package",
     "https://fuchsia.dev/docs/get-started/sdk/learn/components",
-    "https://fuchsia.dev/fuchsia-src/get-started/sdk/learn/intro/components"
+    "https://fuchsia.dev/fuchsia-src/get-started/sdk/learn/intro/components",
+    "https://fuchsia.dev/",
+    "https://fuchsia.dev/fuchsia-src/get-started/learn-fuchsia",
+    "https://fuchsia.dev/fuchsia-src/development/sdk",
+    "https://fuchsia.dev/reference",
+    "https://fuchsia.dev/whats-new/release-notes",
+    "https://fuchsia.dev/fuchsia-src/development",
+    "https://fuchsia.dev/fuchsia-src/get-started/sdk/learn/components",
+    "https://fuchsia.dev/_d/signin?continue=https%3A%2F%2Ffuchsia.dev%2Ffuchsia-src%2Fget-started%2Fsdk%2Flearn%2Fcomponents&prompt=select_account",
+    "https://fuchsia.dev/fuchsia-src/get-started/learn-fuchsia",
+    "https://fuchsia.dev/fuchsia-src/get-started/learn-fuchsia",
+    "https://fuchsia.dev/fuchsia-src/concepts",
+    "https://fuchsia.dev/fuchsia-src/glossary",
+    "https://fuchsia.dev/fuchsia-src/get-started/sdk/learn/components",
+    "https://fuchsia.dev/",
+    "https://fuchsia.dev/fuchsia-src/get-started/learn-fuchsia",
+    "https://fuchsia.dev/fuchsia-src/get-started/learn-fuchsia",
+    "https://fuchsia.dev/fuchsia-src/concepts",
+    "https://fuchsia.dev/fuchsia-src/glossary",
+    "https://fuchsia.dev/fuchsia-src/development/sdk",
+    "https://fuchsia.dev/reference",
+    "https://fuchsia.dev/whats-new/release-notes",
+    "https://fuchsia.dev/fuchsia-src/development",
+    "https://fuchsia.dev/fuchsia-src/get-started/learn-fuchsia",
+    "https://fuchsia.dev/fuchsia-src/get-started/sdk/learn",
+    "https://fuchsia.dev/fuchsia-src/get-started/sdk/learn/intro",
+    "https://fuchsia.dev/fuchsia-src/get-started/sdk/learn/intro/architecture",
+    "https://fuchsia.dev/fuchsia-src/get-started/sdk/learn/intro/zircon",
+    "https://fuchsia.dev/fuchsia-src/get-started/sdk/learn/intro/sandboxing",
+    "https://fuchsia.dev/fuchsia-src/get-started/sdk/learn/intro/components",
+    "https://fuchsia.dev/fuchsia-src/get-started/sdk/learn/intro/packages",
+    "https://fuchsia.dev/fuchsia-src/get-started/sdk/learn/components/declaring-components",
+    "https://fuchsia.dev/fuchsia-src/get-started/sdk/learn/components/organizing-components",
+    "https://fuchsia.dev/fuchsia-src/get-started/sdk/learn/components/component-tests",
+    "https://fuchsia.dev/fuchsia-src/get-started/sdk/learn/components/debugging-components",
+    "https://fuchsia.dev/fuchsia-src/get-started/sdk/learn/components/build-product",
+    "https://fuchsia.dev/fuchsia-src/get-started/sdk/learn/fidl",
+    "https://fuchsia.dev/fuchsia-src/get-started/sdk/learn/fidl/fidl",
+    "https://fuchsia.dev/fuchsia-src/get-started/sdk/learn/fidl/connecting-components",
+    "https://fuchsia.dev/fuchsia-src/get-started/sdk/learn/fidl/integration-testing",
+    "https://fuchsia.dev/fuchsia-src/get-started/sdk/learn/fidl/diagnostics-monitoring",
+    "https://fuchsia.dev/fuchsia-src/get-started/learn",
+    "https://fuchsia.dev/fuchsia-src/get-started/learn/intro",
+    "https://fuchsia.dev/fuchsia-src/get-started/learn/intro/architecture",
+    "https://fuchsia.dev/fuchsia-src/get-started/learn/intro/zircon",
+    "https://fuchsia.dev/fuchsia-src/get-started/learn/intro/sandboxing",
+    "https://fuchsia.dev/fuchsia-src/get-started/learn/intro/components",
+    "https://fuchsia.dev/fuchsia-src/get-started/learn/intro/packages",
+    "https://fuchsia.dev/fuchsia-src/get-started/learn/build",
+    "https://fuchsia.dev/fuchsia-src/get-started/learn/build/source-tree",
+    "https://fuchsia.dev/fuchsia-src/get-started/learn/build/build-system",
+    "https://fuchsia.dev/fuchsia-src/get-started/learn/build/product-packages",
+    "https://fuchsia.dev/fuchsia-src/get-started/learn/build/working-with-devices",
+    "https://fuchsia.dev/fuchsia-src/get-started/learn/components",
+    "https://fuchsia.dev/fuchsia-src/get-started/learn/components/declaring-components",
+    "https://fuchsia.dev/fuchsia-src/get-started/learn/components/organizing-components",
+    "https://fuchsia.dev/fuchsia-src/get-started/learn/components/component-tests",
+    "https://fuchsia.dev/fuchsia-src/get-started/learn/components/debugging-components",
+    "https://fuchsia.dev/fuchsia-src/get-started/learn/components/build-product",
+    "https://fuchsia.dev/fuchsia-src/get-started/learn/fidl",
+    "https://fuchsia.dev/fuchsia-src/get-started/learn/fidl/fidl",
+    "https://fuchsia.dev/fuchsia-src/get-started/learn/fidl/connecting-components",
+    "https://fuchsia.dev/fuchsia-src/get-started/learn/fidl/integration-testing",
+    "https://fuchsia.dev/fuchsia-src/get-started/learn/fidl/diagnostics-monitoring",
+    "https://fuchsia.dev/fuchsia-src/get-started/sdk/learn/components",
+    "https://fuchsia.dev/fuchsia-src/get-started/sdk/learn/components",
+    "https://fuchsia.dev/fuchsia-src/get-started/sdk/learn/components",
+    "https://fuchsia.dev/",
+    "https://fuchsia.dev/fuchsia-src/get-started/learn-fuchsia",
+    "https://fuchsia.dev/fuchsia-src/get-started/sdk/learn/components",
+    "https://fuchsia.dev/fuchsia-src/get-started/sdk/learn/components",
+    "https://fuchsia.dev/fuchsia-src/get-started/sdk/learn/components",
+    "https://fuchsia.dev/docs/get-started/sdk/learn/intro/README",
+    "https://fuchsia.dev/docs/get-started/sdk",
+    "https://fuchsia.dev/docs/get-started/sdk#start-the-emulator",
+    "https://fuchsia.dev/fuchsia-src/get-started/sdk/learn/components/declaring-components"
   ],
   "results": {
     "/": {
@@ -16024,6 +16098,300 @@
         "computed_url": "https://policies.google.com/privacy",
         "ok": true
       }
+    },
+    "/fuchsia-src/get-started/sdk/learn/components": {
+      "/": {
+        "computed_url": "https://fuchsia.dev/",
+        "ok": true
+      },
+      "https://fuchsia.dev/fuchsia-src/get-started/learn-fuchsia": {
+        "computed_url": "https://fuchsia.dev/fuchsia-src/get-started/learn-fuchsia",
+        "ok": true
+      },
+      "https://fuchsia.dev/fuchsia-src/development/sdk": {
+        "computed_url": "https://fuchsia.dev/fuchsia-src/development/sdk",
+        "ok": true
+      },
+      "https://fuchsia.dev/reference": {
+        "computed_url": "https://fuchsia.dev/reference",
+        "ok": true
+      },
+      "https://fuchsia.dev/whats-new/release-notes": {
+        "computed_url": "https://fuchsia.dev/whats-new/release-notes",
+        "ok": true
+      },
+      "https://fuchsia.dev/fuchsia-src/development": {
+        "computed_url": "https://fuchsia.dev/fuchsia-src/development",
+        "ok": true
+      },
+      "#": {
+        "computed_url": "https://fuchsia.dev/fuchsia-src/get-started/sdk/learn/components",
+        "ok": true
+      },
+      "https://fuchsia.dev/_d/signin?continue=https%3A%2F%2Ffuchsia.dev%2Ffuchsia-src%2Fget-started%2Fsdk%2Flearn%2Fcomponents&prompt=select_account": {
+        "computed_url": "https://fuchsia.dev/_d/signin?continue=https%3A%2F%2Ffuchsia.dev%2Ffuchsia-src%2Fget-started%2Fsdk%2Flearn%2Fcomponents&prompt=select_account",
+        "ok": true
+      },
+      "https://fuchsia.dev/fuchsia-src/concepts": {
+        "computed_url": "https://fuchsia.dev/fuchsia-src/concepts",
+        "ok": true
+      },
+      "https://fuchsia.dev/fuchsia-src/glossary": {
+        "computed_url": "https://fuchsia.dev/fuchsia-src/glossary",
+        "ok": true
+      },
+      "/fuchsia-src/get-started/learn-fuchsia": {
+        "computed_url": "https://fuchsia.dev/fuchsia-src/get-started/learn-fuchsia",
+        "ok": true
+      },
+      "/fuchsia-src/concepts": {
+        "computed_url": "https://fuchsia.dev/fuchsia-src/concepts",
+        "ok": true
+      },
+      "/fuchsia-src/glossary": {
+        "computed_url": "https://fuchsia.dev/fuchsia-src/glossary",
+        "ok": true
+      },
+      "/fuchsia-src/development/sdk": {
+        "computed_url": "https://fuchsia.dev/fuchsia-src/development/sdk",
+        "ok": true
+      },
+      "/reference": {
+        "computed_url": "https://fuchsia.dev/reference",
+        "ok": true
+      },
+      "/whats-new/release-notes": {
+        "computed_url": "https://fuchsia.dev/whats-new/release-notes",
+        "ok": true
+      },
+      "/fuchsia-src/development": {
+        "computed_url": "https://fuchsia.dev/fuchsia-src/development",
+        "ok": true
+      },
+      "/fuchsia-src/get-started/sdk/learn": {
+        "computed_url": "https://fuchsia.dev/fuchsia-src/get-started/sdk/learn",
+        "ok": true
+      },
+      "/fuchsia-src/get-started/sdk/learn/intro": {
+        "computed_url": "https://fuchsia.dev/fuchsia-src/get-started/sdk/learn/intro",
+        "ok": true
+      },
+      "/fuchsia-src/get-started/sdk/learn/intro/architecture": {
+        "computed_url": "https://fuchsia.dev/fuchsia-src/get-started/sdk/learn/intro/architecture",
+        "ok": true
+      },
+      "/fuchsia-src/get-started/sdk/learn/intro/zircon": {
+        "computed_url": "https://fuchsia.dev/fuchsia-src/get-started/sdk/learn/intro/zircon",
+        "ok": true
+      },
+      "/fuchsia-src/get-started/sdk/learn/intro/sandboxing": {
+        "computed_url": "https://fuchsia.dev/fuchsia-src/get-started/sdk/learn/intro/sandboxing",
+        "ok": true
+      },
+      "/fuchsia-src/get-started/sdk/learn/intro/components": {
+        "computed_url": "https://fuchsia.dev/fuchsia-src/get-started/sdk/learn/intro/components",
+        "ok": true
+      },
+      "/fuchsia-src/get-started/sdk/learn/intro/packages": {
+        "computed_url": "https://fuchsia.dev/fuchsia-src/get-started/sdk/learn/intro/packages",
+        "ok": true
+      },
+      "/fuchsia-src/get-started/sdk/learn/components/declaring-components": {
+        "computed_url": "https://fuchsia.dev/fuchsia-src/get-started/sdk/learn/components/declaring-components",
+        "ok": true
+      },
+      "/fuchsia-src/get-started/sdk/learn/components/organizing-components": {
+        "computed_url": "https://fuchsia.dev/fuchsia-src/get-started/sdk/learn/components/organizing-components",
+        "ok": true
+      },
+      "/fuchsia-src/get-started/sdk/learn/components/component-tests": {
+        "computed_url": "https://fuchsia.dev/fuchsia-src/get-started/sdk/learn/components/component-tests",
+        "ok": true
+      },
+      "/fuchsia-src/get-started/sdk/learn/components/debugging-components": {
+        "computed_url": "https://fuchsia.dev/fuchsia-src/get-started/sdk/learn/components/debugging-components",
+        "ok": true
+      },
+      "/fuchsia-src/get-started/sdk/learn/components/build-product": {
+        "computed_url": "https://fuchsia.dev/fuchsia-src/get-started/sdk/learn/components/build-product",
+        "ok": true
+      },
+      "/fuchsia-src/get-started/sdk/learn/fidl": {
+        "computed_url": "https://fuchsia.dev/fuchsia-src/get-started/sdk/learn/fidl",
+        "ok": true
+      },
+      "/fuchsia-src/get-started/sdk/learn/fidl/fidl": {
+        "computed_url": "https://fuchsia.dev/fuchsia-src/get-started/sdk/learn/fidl/fidl",
+        "ok": true
+      },
+      "/fuchsia-src/get-started/sdk/learn/fidl/connecting-components": {
+        "computed_url": "https://fuchsia.dev/fuchsia-src/get-started/sdk/learn/fidl/connecting-components",
+        "ok": true
+      },
+      "/fuchsia-src/get-started/sdk/learn/fidl/integration-testing": {
+        "computed_url": "https://fuchsia.dev/fuchsia-src/get-started/sdk/learn/fidl/integration-testing",
+        "ok": true
+      },
+      "/fuchsia-src/get-started/sdk/learn/fidl/diagnostics-monitoring": {
+        "computed_url": "https://fuchsia.dev/fuchsia-src/get-started/sdk/learn/fidl/diagnostics-monitoring",
+        "ok": true
+      },
+      "/fuchsia-src/get-started/learn": {
+        "computed_url": "https://fuchsia.dev/fuchsia-src/get-started/learn",
+        "ok": true
+      },
+      "/fuchsia-src/get-started/learn/intro": {
+        "computed_url": "https://fuchsia.dev/fuchsia-src/get-started/learn/intro",
+        "ok": true
+      },
+      "/fuchsia-src/get-started/learn/intro/architecture": {
+        "computed_url": "https://fuchsia.dev/fuchsia-src/get-started/learn/intro/architecture",
+        "ok": true
+      },
+      "/fuchsia-src/get-started/learn/intro/zircon": {
+        "computed_url": "https://fuchsia.dev/fuchsia-src/get-started/learn/intro/zircon",
+        "ok": true
+      },
+      "/fuchsia-src/get-started/learn/intro/sandboxing": {
+        "computed_url": "https://fuchsia.dev/fuchsia-src/get-started/learn/intro/sandboxing",
+        "ok": true
+      },
+      "/fuchsia-src/get-started/learn/intro/components": {
+        "computed_url": "https://fuchsia.dev/fuchsia-src/get-started/learn/intro/components",
+        "ok": true
+      },
+      "/fuchsia-src/get-started/learn/intro/packages": {
+        "computed_url": "https://fuchsia.dev/fuchsia-src/get-started/learn/intro/packages",
+        "ok": true
+      },
+      "/fuchsia-src/get-started/learn/build": {
+        "computed_url": "https://fuchsia.dev/fuchsia-src/get-started/learn/build",
+        "ok": true
+      },
+      "/fuchsia-src/get-started/learn/build/source-tree": {
+        "computed_url": "https://fuchsia.dev/fuchsia-src/get-started/learn/build/source-tree",
+        "ok": true
+      },
+      "/fuchsia-src/get-started/learn/build/build-system": {
+        "computed_url": "https://fuchsia.dev/fuchsia-src/get-started/learn/build/build-system",
+        "ok": true
+      },
+      "/fuchsia-src/get-started/learn/build/product-packages": {
+        "computed_url": "https://fuchsia.dev/fuchsia-src/get-started/learn/build/product-packages",
+        "ok": true
+      },
+      "/fuchsia-src/get-started/learn/build/working-with-devices": {
+        "computed_url": "https://fuchsia.dev/fuchsia-src/get-started/learn/build/working-with-devices",
+        "ok": true
+      },
+      "/fuchsia-src/get-started/learn/components": {
+        "computed_url": "https://fuchsia.dev/fuchsia-src/get-started/learn/components",
+        "ok": true
+      },
+      "/fuchsia-src/get-started/learn/components/declaring-components": {
+        "computed_url": "https://fuchsia.dev/fuchsia-src/get-started/learn/components/declaring-components",
+        "ok": true
+      },
+      "/fuchsia-src/get-started/learn/components/organizing-components": {
+        "computed_url": "https://fuchsia.dev/fuchsia-src/get-started/learn/components/organizing-components",
+        "ok": true
+      },
+      "/fuchsia-src/get-started/learn/components/component-tests": {
+        "computed_url": "https://fuchsia.dev/fuchsia-src/get-started/learn/components/component-tests",
+        "ok": true
+      },
+      "/fuchsia-src/get-started/learn/components/debugging-components": {
+        "computed_url": "https://fuchsia.dev/fuchsia-src/get-started/learn/components/debugging-components",
+        "ok": true
+      },
+      "/fuchsia-src/get-started/learn/components/build-product": {
+        "computed_url": "https://fuchsia.dev/fuchsia-src/get-started/learn/components/build-product",
+        "ok": true
+      },
+      "/fuchsia-src/get-started/learn/fidl": {
+        "computed_url": "https://fuchsia.dev/fuchsia-src/get-started/learn/fidl",
+        "ok": true
+      },
+      "/fuchsia-src/get-started/learn/fidl/fidl": {
+        "computed_url": "https://fuchsia.dev/fuchsia-src/get-started/learn/fidl/fidl",
+        "ok": true
+      },
+      "/fuchsia-src/get-started/learn/fidl/connecting-components": {
+        "computed_url": "https://fuchsia.dev/fuchsia-src/get-started/learn/fidl/connecting-components",
+        "ok": true
+      },
+      "/fuchsia-src/get-started/learn/fidl/integration-testing": {
+        "computed_url": "https://fuchsia.dev/fuchsia-src/get-started/learn/fidl/integration-testing",
+        "ok": true
+      },
+      "/fuchsia-src/get-started/learn/fidl/diagnostics-monitoring": {
+        "computed_url": "https://fuchsia.dev/fuchsia-src/get-started/learn/fidl/diagnostics-monitoring",
+        "ok": true
+      },
+      "#prerequisites": {
+        "computed_url": "https://fuchsia.dev/fuchsia-src/get-started/sdk/learn/components",
+        "ok": true
+      },
+      "#what_youll_learn": {
+        "computed_url": "https://fuchsia.dev/fuchsia-src/get-started/sdk/learn/components",
+        "ok": true
+      },
+      "#what_youll_need": {
+        "computed_url": "https://fuchsia.dev/fuchsia-src/get-started/sdk/learn/components",
+        "ok": true
+      },
+      "https://fuchsia.dev/": {
+        "computed_url": "https://fuchsia.dev/",
+        "ok": true
+      },
+      "/docs/get-started/sdk/learn/intro/README": {
+        "computed_url": "https://fuchsia.dev/docs/get-started/sdk/learn/intro/README",
+        "ok": true
+      },
+      "https://bugs.fuchsia.dev/p/fuchsia/issues/entry?template=Bazel": {
+        "computed_url": "https://bugs.fuchsia.dev/p/fuchsia/issues/entry?template=Bazel",
+        "ok": true
+      },
+      "/docs/get-started/sdk": {
+        "computed_url": "https://fuchsia.dev/docs/get-started/sdk",
+        "ok": true
+      },
+      "/docs/get-started/sdk#start-the-emulator": {
+        "computed_url": "https://fuchsia.dev/docs/get-started/sdk#start-the-emulator",
+        "ok": true
+      },
+      "https://bugs.fuchsia.dev/p/fuchsia/issues/entry?template=Fuchsia.dev%20Documentation&description=Issue%20on%20page:%20https://ci.android.com/edit?repo=fuchsia/fuchsia/main%26file=docs/get-started/sdk/learn/components/README.md": {
+        "computed_url": "https://bugs.fuchsia.dev/p/fuchsia/issues/entry?template=Fuchsia.dev%20Documentation&description=Issue%20on%20page:%20https://ci.android.com/edit?repo=fuchsia/fuchsia/main%26file=docs/get-started/sdk/learn/components/README.md",
+        "ok": true
+      },
+      "https://cs.opensource.google/fuchsia/fuchsia/+/main:docs/get-started/sdk/learn/components/README.md": {
+        "computed_url": "https://cs.opensource.google/fuchsia/fuchsia/+/main:docs/get-started/sdk/learn/components/README.md",
+        "ok": true
+      },
+      "https://ci.android.com/edit?repo=fuchsia/fuchsia/main&file=docs/get-started/sdk/learn/components/README.md": {
+        "computed_url": "https://ci.android.com/edit?repo=fuchsia/fuchsia/main&file=docs/get-started/sdk/learn/components/README.md",
+        "ok": true
+      },
+      "https://creativecommons.org/licenses/by/4.0/": {
+        "computed_url": "https://creativecommons.org/licenses/by/4.0/",
+        "ok": true
+      },
+      "https://www.apache.org/licenses/LICENSE-2.0": {
+        "computed_url": "https://www.apache.org/licenses/LICENSE-2.0",
+        "ok": true
+      },
+      "https://developers.google.com/site-policies": {
+        "computed_url": "https://developers.google.com/site-policies",
+        "ok": true
+      },
+      "//policies.google.com/terms": {
+        "computed_url": "https://policies.google.com/terms",
+        "ok": true
+      },
+      "//policies.google.com/privacy": {
+        "computed_url": "https://policies.google.com/privacy",
+        "ok": true
+      }
     }
   },
   "metadata": {
@@ -17074,9 +17442,9 @@
         "what_youll_learn",
         "what_youll_need",
         "devsite-thumb-label-footer",
-        "apiproxyabda1299009f93e915d7edaf630b4e552b1425850.3110056201"
+        "apiproxyabda1299009f93e915d7edaf630b4e552b1425850.2034790514"
       ],
-      "last_visit": 1671663020
+      "last_visit": 1671696065
     },
     "https://fuchsia.dev/fuchsia-src/get-started/sdk/learn/components/declaring-components": {
       "ok": true,
@@ -73670,6 +74038,196 @@
         "close"
       ],
       "last_visit": 1671694865
+    },
+    "https://fuchsia.dev/_d/signin?continue=https%3A%2F%2Ffuchsia.dev%2Ffuchsia-src%2Fget-started%2Fsdk%2Flearn%2Fcomponents&prompt=select_account": {
+      "ok": true,
+      "final_url": "https://accounts.google.com/ServiceLogin?continue=https%3A%2F%2Faccounts.google.com%2Fsignin%2Foauth%2Flegacy%2Fconsent%3Fauthuser%3Dunknown%26part%3DAJi8hAOP6YejbYwY4ule4wsxbDzMRTW2WtK3-8R4pjxb-o1pOe9mH4fTxKacc7rRzuc_xXfaCsKbR_kOiwFOQK-IXI-c_QklMnQEJQEVWa7pt8moR8tv2sm_RjtPrx8srqMOD0mKcZYqOgVqIue8YvddIcyxbnGAcOba6ENAurvgwjj6sNpMWw-01I8-Ni7hewDGanE6zk_Df99WvRXnIFyYX_WGI55nlBAQBkfSz3h-PYtF0xSU-VppqMtgytrD9a4dO7Gg0SAtXSMUT1WiDTWil6r9BNsooTj8KdwSeOBhVCjri8Q_PA9zuBEozKwzLt7vqbAAQcIXPBpNM-zjNXynLNbxA17_GwUg7A7BQEPO7Hbk1-mOrokPPRToNGdcQ88u8IxmVzgisRsmo8ltSNbgfgBtOUIA2yaRAZNOaAQjEeqySPD4VC3N3ey6MHkh4kYlO-YUFHmZJ33dRnyJX0IqdRq_JtLotw%26as%3DS-2079891791%253A1671696066338016%26client_id%3D157101835696-ooapojlodmuabs2do2vuhhnf90bccmoi.apps.googleusercontent.com%23&sacu=1&oauth=1&rip=1",
+      "ids": [
+        "gaia_loginform",
+        "profile-information",
+        "session-state",
+        "_utf8",
+        "bgresponse",
+        "gaia_firstform",
+        "identifier-shown",
+        "Email",
+        "Passwd-hidden",
+        "errormsg_0_Email",
+        "next",
+        "link-signin-different",
+        "link-signup",
+        "footer-list",
+        "lang-vis-control",
+        "lang-chooser-wrap",
+        "lang-chooser"
+      ],
+      "last_visit": 1671696068
+    },
+    "https://fuchsia.dev/docs/get-started/sdk/learn/intro/README": {
+      "ok": true,
+      "final_url": "https://fuchsia.dev/fuchsia-src/get-started/sdk/learn/intro",
+      "ids": [
+        "app-progress",
+        "devsite-hamburger-menu",
+        "devsite-search-popout-container-id-1",
+        "devsite-user",
+        "devsite-close-nav",
+        "gc-wrapper",
+        "devsite-thumb-label-header",
+        "what_youll_learn",
+        "what_youll_need",
+        "devsite-thumb-label-footer",
+        "apiproxyabda1299009f93e915d7edaf630b4e552b1425850.4289202287"
+      ],
+      "last_visit": 1671696069
+    },
+    "https://bugs.fuchsia.dev/p/fuchsia/issues/entry?template=Fuchsia.dev%20Documentation&description=Issue%20on%20page:%20https://ci.android.com/edit?repo=fuchsia/fuchsia/main%26file=docs/get-started/sdk/learn/components/README.md": {
+      "ok": true,
+      "final_url": "https://accounts.google.com/v3/signin/identifier?dsh=S604115671%3A1671696070198856&continue=https%3A%2F%2Fuc.appengine.google.com%2F_ah%2Fconflogin%3Fcontinue%3Dhttps%3A%2F%2Fbugs.fuchsia.dev%2Fp%2Ffuchsia%2Fissues%2Fentry%3Ftemplate%3DFuchsia.dev%2520Documentation%26description%3DIssue%2520on%2520page%3A%2520https%3A%252F%252Fci.android.com%252Fedit%253Frepo%3Dfuchsia%252Ffuchsia%252Fmain%2526file%3Ddocs%252Fget-started%252Fsdk%252Flearn%252Fcomponents%252FREADME.md&rip=1&sacu=1&flowName=WebLiteSignIn&flowEntry=ServiceLogin&ifkv=AeAAQh5EJyP92HSJ9AidLvONc-sulSGwIwsxCl0ge3mZn027N5NG2aHhIgPZiF5oKzbhgsCeez3L",
+      "ids": [
+        "i2",
+        "identifierId",
+        "program",
+        "bgresponse",
+        "i3",
+        "identifierNext",
+        "i1"
+      ],
+      "last_visit": 1671696071
+    },
+    "https://cs.opensource.google/fuchsia/fuchsia/+/main:docs/get-started/sdk/learn/components/README.md": {
+      "ok": true,
+      "final_url": "https://cs.opensource.google/fuchsia/fuchsia/+/main:docs/get-started/sdk/learn/components/README.md",
+      "ids": [
+        "base-js",
+        "defaultTheme",
+        "mat-input-0",
+        "mat-form-field-label-1",
+        "mat-tab-label-1-0",
+        "mat-tab-label-1-1",
+        "mat-tab-content-1-0",
+        "mat-tab-content-1-1",
+        "detail-header-id",
+        "mat-tab-label-2-0",
+        "mat-tab-label-2-1",
+        "mat-tab-content-2-0",
+        "mat-tab-content-2-1",
+        "mat-tab-label-0-0",
+        "mat-tab-label-0-1",
+        "mat-tab-content-0-0",
+        "mat-tab-content-0-1",
+        "butler-edit-button",
+        "cdk-live-announcer-0",
+        "cdk-overlay-0",
+        "cdk-describedby-message-jre-1-2",
+        "cdk-describedby-message-jre-1-3",
+        "cdk-describedby-message-jre-1-4",
+        "cdk-describedby-message-jre-1-5",
+        "cdk-describedby-message-jre-1-6",
+        "cdk-describedby-message-jre-1-7"
+      ],
+      "last_visit": 1671696095
+    },
+    "https://ci.android.com/edit?repo=fuchsia/fuchsia/main&file=docs/get-started/sdk/learn/components/README.md": {
+      "ok": true,
+      "final_url": "https://ci.android.com/edit?repo=fuchsia/fuchsia/main&file=docs/get-started/sdk/learn/components/README.md",
+      "ids": [
+        "paper-spinner-styles",
+        "shared-styles",
+        "state",
+        "edit",
+        "app",
+        "ssIFrame_google",
+        "branch-picker",
+        "file-path",
+        "load-file",
+        "pullup-panel",
+        "revert-files",
+        "create-change",
+        "update-change",
+        "change-dialog",
+        "revert-dialog",
+        "update-dialog",
+        "update-dialog-content",
+        "change-input",
+        "publish",
+        "revert-files-dialog",
+        "delete-dialog",
+        "no-account",
+        "bug-report",
+        "help",
+        "bug-report",
+        "help",
+        "error-dialog",
+        "person-add",
+        "modal-header",
+        "clear",
+        "dismiss-icon",
+        "close",
+        "arrow-drop-down",
+        "list-items",
+        "close",
+        "spinnerContainer",
+        "select-all",
+        "approve-button",
+        "theinput",
+        "arrow-drop-down",
+        "create",
+        "",
+        "new-file-dialog",
+        "new-file-dialog-content",
+        "file-input",
+        "new-dir-dialog",
+        "new-dir-dialog-content",
+        "modal-header",
+        "clear",
+        "dismiss-icon",
+        "close",
+        "theinput",
+        "theinput",
+        "error",
+        "modal-header",
+        "clear",
+        "dismiss-icon",
+        "close",
+        "theinput",
+        "theinput",
+        "error",
+        "checkbox",
+        "remove",
+        "arrow-drop-down",
+        "modal-header",
+        "clear",
+        "change-input",
+        "publish",
+        "dismiss-icon",
+        "close",
+        "publish",
+        "check",
+        "modal-header",
+        "clear",
+        "dismiss-icon",
+        "close",
+        "modal-header",
+        "clear",
+        "dismiss-icon",
+        "close",
+        "publish",
+        "remove",
+        "modal-header",
+        "clear",
+        "dismiss-icon",
+        "close",
+        "modal-header",
+        "clear",
+        "dismiss-icon",
+        "close",
+        "modal-header",
+        "clear",
+        "dismiss-icon",
+        "close"
+      ],
+      "last_visit": 1671696098
     }
   }
 }
