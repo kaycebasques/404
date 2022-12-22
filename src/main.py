@@ -49,13 +49,13 @@ def update_metadata(page, response, computed_url, data):
   return data
 
 def scrape(page, data):
-  load_state = 'networkidle'
+  load_event = 'load'
   if len(data['todo']) == 0:
     return data
   url = data['todo'].pop(0)
   try:
     response = page.goto(url, timeout=10000)
-    page.wait_for_load_state(load_state)
+    page.wait_for_load_state(load_event)
   except:
     data['todo'].append(url)
     return data
@@ -93,7 +93,7 @@ def scrape(page, data):
       continue
     try:
       response = page.goto(computed_url, timeout=10000)
-      page.wait_for_load_state(load_state)
+      page.wait_for_load_state(load_event)
     except:
       data['results'][pathname][href]['ok'] = False
       data = update_metadata(None, None, computed_url, data)
