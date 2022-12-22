@@ -36,6 +36,12 @@ def get_ids(page):
 def update_metadata(page, response, computed_url, data):
   if computed_url not in data['metadata']:
     data['metadata'][computed_url] = {}
+  if response is None:
+    data['metadata'][computed_url]['ok'] = False
+    data['metadata'][computed_url]['final_url'] = None
+    data['metadata'][computed_url]['ids'] = None
+    data['metadata'][computed_url]['last_visit'] = int(time())
+    return data
   data['metadata'][computed_url]['ok'] = response.ok
   data['metadata'][computed_url]['final_url'] = page.url
   data['metadata'][computed_url]['ids'] = get_ids(page)
@@ -90,7 +96,7 @@ def scrape(page, data):
       page.wait_for_load_state(load_state)
     except:
       data['results'][pathname][href]['ok'] = False
-      data['metadata'][computed_url]['ok'] = False
+      data = update_metadata(None, None, computed_url, data)
       return data
     data = update_metadata(page, response, computed_url, data)
     if href == '#':
