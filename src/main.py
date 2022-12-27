@@ -129,6 +129,8 @@ def fix():
         else:
           site = update_metadata(None, None, computed_url, site)
 
+# TODO: Need to keep the size of data/site.json down. (1) Don't
+# allow duplicate entries in the todo array.
 def main():
   start_time = time()
   data = lib.read_json('data/site.json')
@@ -145,8 +147,21 @@ def main():
       current_time = time()
   lib.write_json('data/site.json', data)
 
+def report():
+  site_data = lib.read_json('data/site.json')
+  for page in site_data['results']:
+    print(page)
+    page_data = site_data['results'][page]
+    for href in page_data:
+      if page_data[href]['ok']:
+        continue
+      print(href)
+    print()
+
 if __name__ == '__main__':
   if len(argv) == 1:
     main()
   elif len(argv) == 2 and argv[1] == 'fix':
     fix()
+  elif len(argv) == 2 and argv[1] == 'report':
+    report()
